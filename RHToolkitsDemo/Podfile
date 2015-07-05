@@ -1,0 +1,32 @@
+platform:ios,'7.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod 'libextobjc', '~> 0.4.1'
+
+pod 'Reachability', '~> 3.2'
+pod 'AFNetworking', '~> 2.5.4'
+pod 'GCDWebServer', '~> 3.2.4'
+pod "GCDWebServer/WebUploader", "~> 3.0"
+pod "GCDWebServer/WebDAV", "~> 3.0"
+
+#pod 'RHSocketKit', :git=>"https://github.com/zhu410289616/RHSocketKit.git"
+
+#先把私有库clone到本地，然后通过指定［path］或者［podspec］调用
+#pod repo add RHSocketKit https://github.com/zhu410289616/RHSocketKit.git
+pod 'RHSocketKit', :path=>"~/.cocoapods/repos/RHSocketKit"  #指定路径
+#pod 'RHSocketKit', :podspec=>"~/.cocoapods/repos/RHSocketKit/RHSocketKit.podspec"  #指定podspec文件
+
+
+pod 'EGOCache', '~> 2.1.3'
+pod 'TTTAttributedLabel', '~> 1.13.4'
+pod 'Mantle', '~> 2.0.2'
+pod 'Masonry', '~> 0.6.1'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'SDWebImage', '~> 3.7.2'
+pod 'kxmovie', '~> 0.0.3'
+
+pod 'MSWeakTimer', '~> 1.1.0'
+
+pod 'MagicalRecord', '~> 2.3.0'
+
+
