@@ -62,6 +62,8 @@
 		83E860CA1B490DB800A56D6F /* SinaShowRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E860B81B490DB800A56D6F /* SinaShowRoomViewController.m */; };
 		83E860CB1B490DB800A56D6F /* WebServerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E860BB1B490DB800A56D6F /* WebServerView.m */; };
 		83E860CC1B490DB800A56D6F /* WebServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E860BD1B490DB800A56D6F /* WebServerViewController.m */; };
+		83EECEB81B4BB36A00F60B27 /* RHToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EECEB71B4BB36A00F60B27 /* RHToastView.m */; };
+		83EECEBB1B4BEAD500F60B27 /* UIView+RHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EECEBA1B4BEAD500F60B27 /* UIView+RHToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,6 +199,10 @@
 		83E860BC1B490DB800A56D6F /* WebServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServerViewController.h; sourceTree = "<group>"; };
 		83E860BD1B490DB800A56D6F /* WebServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServerViewController.m; sourceTree = "<group>"; };
 		83E860D41B4912F400A56D6F /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		83EECEB61B4BB36A00F60B27 /* RHToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHToastView.h; sourceTree = "<group>"; };
+		83EECEB71B4BB36A00F60B27 /* RHToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHToastView.m; sourceTree = "<group>"; };
+		83EECEB91B4BEAD500F60B27 /* UIView+RHToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RHToast.h"; sourceTree = "<group>"; };
+		83EECEBA1B4BEAD500F60B27 /* UIView+RHToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RHToast.m"; sourceTree = "<group>"; };
 		C841EED634B35126D6474175 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -309,6 +315,7 @@
 		83E8601D1B490D9E00A56D6F /* RHToolkits */ = {
 			isa = PBXGroup;
 			children = (
+				83EECEB21B4B85B900F60B27 /* RHToastView */,
 				83E8601E1B490D9E00A56D6F /* RHAudio */,
 				83E8603B1B490D9E00A56D6F /* RHCategroy */,
 				83E860501B490D9F00A56D6F /* RHHttp */,
@@ -576,6 +583,17 @@
 			path = WebServer;
 			sourceTree = "<group>";
 		};
+		83EECEB21B4B85B900F60B27 /* RHToastView */ = {
+			isa = PBXGroup;
+			children = (
+				83EECEB61B4BB36A00F60B27 /* RHToastView.h */,
+				83EECEB71B4BB36A00F60B27 /* RHToastView.m */,
+				83EECEB91B4BEAD500F60B27 /* UIView+RHToast.h */,
+				83EECEBA1B4BEAD500F60B27 /* UIView+RHToast.m */,
+			);
+			path = RHToastView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -723,6 +741,8 @@
 				83E860C21B490DB800A56D6F /* GetSinaShowRoomList.m in Sources */,
 				83E860951B490D9F00A56D6F /* RHSerialQueue.m in Sources */,
 				83E860911B490D9F00A56D6F /* RHTableViewAdapter.m in Sources */,
+				83EECEBB1B4BEAD500F60B27 /* UIView+RHToast.m in Sources */,
+				83EECEB81B4BB36A00F60B27 /* RHToastView.m in Sources */,
 				83E8607E1B490D9F00A56D6F /* NSData+App.m in Sources */,
 				83E860C81B490DB800A56D6F /* RoomLiveInfo.m in Sources */,
 				83E8607C1B490D9F00A56D6F /* RHAudioMp3Output.m in Sources */,

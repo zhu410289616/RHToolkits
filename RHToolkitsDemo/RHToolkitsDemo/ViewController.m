@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+RHToast.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [self.view rh_showToastInBottomWithMessage:@"test toast..."];
+    
 }
 
 - (void)didReceiveMemoryWarning {
