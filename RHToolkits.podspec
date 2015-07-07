@@ -10,11 +10,18 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/zhu410289616/RHToolkits.git", :tag => s.version, :submodules => true }
 
-  s.default_subspec = "RHCategroyKit", "RHTableViewKit", "RHHttpKit"
+  s.default_subspec = "RHCategroyKit", "RHToastViewKit", "RHTableViewKit", "RHHttpKit"
 
   s.subspec "RHCategroyKit" do |cs|
     cs.source_files  = "RHToolkits/RHCategroy/*.{h,m}"
     cs.requires_arc = true
+  end
+
+  s.subspec "RHToastViewKit" do |cs|
+    cs.source_files  = "RHToolkits/RHToastView/*.{h,m}"
+    cs.requires_arc = true
+    cs.dependency 'Masonry', '~> 0.6.1'
+    cs.dependency 'RHToolkits/RHCategroyKit'
   end
 
   s.subspec "RHTableViewKit" do |cs|

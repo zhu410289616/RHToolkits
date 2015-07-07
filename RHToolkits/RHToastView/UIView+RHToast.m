@@ -8,6 +8,7 @@
 
 #import "UIView+RHToast.h"
 #import <objc/runtime.h>
+#import "Masonry.h"
 
 static char rh_toastViewKey;
 

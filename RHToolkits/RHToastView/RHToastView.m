@@ -8,6 +8,8 @@
 
 #import "RHToastView.h"
 #import "UIFont+App.h"
+#import "Masonry.h"
+#import "NSObject+Log.h"
 
 @implementation RHToastView
 
