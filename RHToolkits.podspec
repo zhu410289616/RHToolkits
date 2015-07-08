@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.subspec "RHLoadingViewKit" do |cs|
     cs.source_files  = "RHToolkits/RHLoadingView/*.{h,m}"
     cs.requires_arc = true
-    'MBProgressHUD', '~> 0.9.1'
+    cs.dependency 'MBProgressHUD', '~> 0.9.1'
     cs.dependency 'RHToolkits/RHCategroyKit'
   end
 
