@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIView+RHToast.h"
+#import "UIView+RHLoading.h"
 
 @interface ViewController ()
 
@@ -27,6 +28,9 @@
     [super viewDidAppear:animated];
     
     [self.view rh_showToastInBottomWithMessage:@"test toast..."];
+    
+    [self.view rh_showLoadingWithMessage:@"史蒂夫开始的看法开始地方就是看对方是打开方式扩大防守上的开发商看对方深刻的方式扩大福建省地方上课的飞机库萨发觉我陪哦为哦分"];
+    
     
 }
 

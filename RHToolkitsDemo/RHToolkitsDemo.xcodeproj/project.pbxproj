@@ -64,6 +64,7 @@
 		83E860CC1B490DB800A56D6F /* WebServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E860BD1B490DB800A56D6F /* WebServerViewController.m */; };
 		83EECEB81B4BB36A00F60B27 /* RHToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EECEB71B4BB36A00F60B27 /* RHToastView.m */; };
 		83EECEBB1B4BEAD500F60B27 /* UIView+RHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EECEBA1B4BEAD500F60B27 /* UIView+RHToast.m */; };
+		83EECEBF1B4BF7E900F60B27 /* UIView+RHLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EECEBE1B4BF7E900F60B27 /* UIView+RHLoading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +204,8 @@
 		83EECEB71B4BB36A00F60B27 /* RHToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHToastView.m; sourceTree = "<group>"; };
 		83EECEB91B4BEAD500F60B27 /* UIView+RHToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RHToast.h"; sourceTree = "<group>"; };
 		83EECEBA1B4BEAD500F60B27 /* UIView+RHToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RHToast.m"; sourceTree = "<group>"; };
+		83EECEBD1B4BF7E900F60B27 /* UIView+RHLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RHLoading.h"; sourceTree = "<group>"; };
+		83EECEBE1B4BF7E900F60B27 /* UIView+RHLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RHLoading.m"; sourceTree = "<group>"; };
 		C841EED634B35126D6474175 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -315,6 +318,7 @@
 		83E8601D1B490D9E00A56D6F /* RHToolkits */ = {
 			isa = PBXGroup;
 			children = (
+				83EECEBC1B4BF63800F60B27 /* RHLoadingView */,
 				83EECEB21B4B85B900F60B27 /* RHToastView */,
 				83E8601E1B490D9E00A56D6F /* RHAudio */,
 				83E8603B1B490D9E00A56D6F /* RHCategroy */,
@@ -594,6 +598,15 @@
 			path = RHToastView;
 			sourceTree = "<group>";
 		};
+		83EECEBC1B4BF63800F60B27 /* RHLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				83EECEBD1B4BF7E900F60B27 /* UIView+RHLoading.h */,
+				83EECEBE1B4BF7E900F60B27 /* UIView+RHLoading.m */,
+			);
+			path = RHLoadingView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -733,6 +746,7 @@
 				83E860C71B490DB800A56D6F /* SinaShowHallViewController.m in Sources */,
 				83E860861B490D9F00A56D6F /* UIFont+App.m in Sources */,
 				83E8608F1B490D9F00A56D6F /* RHHeadImageCell.m in Sources */,
+				83EECEBF1B4BF7E900F60B27 /* UIView+RHLoading.m in Sources */,
 				83E860821B490D9F00A56D6F /* NSObject+Log.m in Sources */,
 				83E860001B49085A00A56D6F /* ViewController.m in Sources */,
 				83E860851B490D9F00A56D6F /* UIDevice+App.m in Sources */,

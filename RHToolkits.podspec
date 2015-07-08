@@ -24,6 +24,12 @@ Pod::Spec.new do |s|
     cs.dependency 'RHToolkits/RHCategroyKit'
   end
 
+  s.subspec "RHLoadingViewKit" do |cs|
+    cs.source_files  = "RHToolkits/RHLoadingView/*.{h,m}"
+    cs.requires_arc = true
+    cs.dependency 'RHToolkits/RHCategroyKit'
+  end
+
   s.subspec "RHTableViewKit" do |cs|
     cs.source_files = "RHToolkits/RHTableView/*.{h,m}"
     cs.requires_arc = true
