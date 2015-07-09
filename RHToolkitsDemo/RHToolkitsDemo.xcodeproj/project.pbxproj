@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		614CBF2D9FD9AFB2D11DB109 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C841EED634B35126D6474175 /* libPods.a */; };
+		836356E01B4E223E0087B4EC /* RHStretchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356DF1B4E223E0087B4EC /* RHStretchTableView.m */; };
+		836AE3421B4D4B4900EA7AAD /* NSObject+sharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */; };
 		83E85FFA1B49085A00A56D6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FF91B49085A00A56D6F /* main.m */; };
 		83E85FFD1B49085A00A56D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FFC1B49085A00A56D6F /* AppDelegate.m */; };
 		83E860001B49085A00A56D6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FFF1B49085A00A56D6F /* ViewController.m */; };
@@ -80,6 +82,10 @@
 /* Begin PBXFileReference section */
 		5AB6107C49065E8E307E0D8A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5D9884DD6C1CD0E70258A7A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		836356DE1B4E223E0087B4EC /* RHStretchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHStretchTableView.h; sourceTree = "<group>"; };
+		836356DF1B4E223E0087B4EC /* RHStretchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHStretchTableView.m; sourceTree = "<group>"; };
+		836AE3401B4D4B4900EA7AAD /* NSObject+sharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+sharedInstance.h"; sourceTree = "<group>"; };
+		836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+sharedInstance.m"; sourceTree = "<group>"; };
 		83E85FF41B49085A00A56D6F /* RHToolkitsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHToolkitsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E85FF81B49085A00A56D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E85FF91B49085A00A56D6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -444,6 +450,8 @@
 				83E8604D1B490D9E00A56D6F /* UIFont+App.m */,
 				83E8604E1B490D9E00A56D6F /* UIImage+App.h */,
 				83E8604F1B490D9E00A56D6F /* UIImage+App.m */,
+				836AE3401B4D4B4900EA7AAD /* NSObject+sharedInstance.h */,
+				836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */,
 			);
 			path = RHCategroy;
 			sourceTree = "<group>";
@@ -482,6 +490,8 @@
 				83E860671B490D9F00A56D6F /* RHTableViewAdapter.m */,
 				83E860681B490D9F00A56D6F /* RHTableViewCell.h */,
 				83E860691B490D9F00A56D6F /* RHTableViewCell.m */,
+				836356DE1B4E223E0087B4EC /* RHStretchTableView.h */,
+				836356DF1B4E223E0087B4EC /* RHStretchTableView.m */,
 			);
 			path = RHTableView;
 			sourceTree = "<group>";
@@ -746,6 +756,7 @@
 				83E860C71B490DB800A56D6F /* SinaShowHallViewController.m in Sources */,
 				83E860861B490D9F00A56D6F /* UIFont+App.m in Sources */,
 				83E8608F1B490D9F00A56D6F /* RHHeadImageCell.m in Sources */,
+				836AE3421B4D4B4900EA7AAD /* NSObject+sharedInstance.m in Sources */,
 				83EECEBF1B4BF7E900F60B27 /* UIView+RHLoading.m in Sources */,
 				83E860821B490D9F00A56D6F /* NSObject+Log.m in Sources */,
 				83E860001B49085A00A56D6F /* ViewController.m in Sources */,
@@ -792,6 +803,7 @@
 				83E860921B490D9F00A56D6F /* RHTableViewCell.m in Sources */,
 				83E8608A1B490D9F00A56D6F /* RHHttpGetOperation.m in Sources */,
 				83E860831B490D9F00A56D6F /* NSString+App.m in Sources */,
+				836356E01B4E223E0087B4EC /* RHStretchTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
