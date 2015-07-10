@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		614CBF2D9FD9AFB2D11DB109 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C841EED634B35126D6474175 /* libPods.a */; };
 		836356E01B4E223E0087B4EC /* RHStretchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356DF1B4E223E0087B4EC /* RHStretchTableView.m */; };
+		836356E31B4F651E0087B4EC /* RHMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356E21B4F651E0087B4EC /* RHMessageCell.m */; };
+		836356E61B4F6A8B0087B4EC /* RHMessageImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356E51B4F6A8B0087B4EC /* RHMessageImageCell.m */; };
+		836356E91B4F6B330087B4EC /* RHMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356E81B4F6B330087B4EC /* RHMessageData.m */; };
+		836356EC1B4F6D030087B4EC /* RHMessageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356EB1B4F6D030087B4EC /* RHMessageTextCell.m */; };
+		836356F21B4F73770087B4EC /* RHChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356F11B4F73770087B4EC /* RHChatView.m */; };
+		836356F51B4F75BE0087B4EC /* RHChatViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356F41B4F75BE0087B4EC /* RHChatViewAdapter.m */; };
 		836AE3421B4D4B4900EA7AAD /* NSObject+sharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */; };
 		83E85FFA1B49085A00A56D6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FF91B49085A00A56D6F /* main.m */; };
 		83E85FFD1B49085A00A56D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FFC1B49085A00A56D6F /* AppDelegate.m */; };
@@ -84,6 +90,18 @@
 		5D9884DD6C1CD0E70258A7A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		836356DE1B4E223E0087B4EC /* RHStretchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHStretchTableView.h; sourceTree = "<group>"; };
 		836356DF1B4E223E0087B4EC /* RHStretchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHStretchTableView.m; sourceTree = "<group>"; };
+		836356E11B4F651E0087B4EC /* RHMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageCell.h; sourceTree = "<group>"; };
+		836356E21B4F651E0087B4EC /* RHMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageCell.m; sourceTree = "<group>"; };
+		836356E41B4F6A8B0087B4EC /* RHMessageImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageImageCell.h; sourceTree = "<group>"; };
+		836356E51B4F6A8B0087B4EC /* RHMessageImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageImageCell.m; sourceTree = "<group>"; };
+		836356E71B4F6B330087B4EC /* RHMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageData.h; sourceTree = "<group>"; };
+		836356E81B4F6B330087B4EC /* RHMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageData.m; sourceTree = "<group>"; };
+		836356EA1B4F6D030087B4EC /* RHMessageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageTextCell.h; sourceTree = "<group>"; };
+		836356EB1B4F6D030087B4EC /* RHMessageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageTextCell.m; sourceTree = "<group>"; };
+		836356F01B4F73770087B4EC /* RHChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHChatView.h; sourceTree = "<group>"; };
+		836356F11B4F73770087B4EC /* RHChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHChatView.m; sourceTree = "<group>"; };
+		836356F31B4F75BE0087B4EC /* RHChatViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHChatViewAdapter.h; sourceTree = "<group>"; };
+		836356F41B4F75BE0087B4EC /* RHChatViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHChatViewAdapter.m; sourceTree = "<group>"; };
 		836AE3401B4D4B4900EA7AAD /* NSObject+sharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+sharedInstance.h"; sourceTree = "<group>"; };
 		836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+sharedInstance.m"; sourceTree = "<group>"; };
 		83E85FF41B49085A00A56D6F /* RHToolkitsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHToolkitsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -530,6 +548,18 @@
 				83E8609C1B490DB800A56D6F /* GetServerInfo.m */,
 				83E8609D1B490DB800A56D6F /* TestDownloader.h */,
 				83E8609E1B490DB800A56D6F /* TestDownloader.m */,
+				836356E11B4F651E0087B4EC /* RHMessageCell.h */,
+				836356E21B4F651E0087B4EC /* RHMessageCell.m */,
+				836356E41B4F6A8B0087B4EC /* RHMessageImageCell.h */,
+				836356E51B4F6A8B0087B4EC /* RHMessageImageCell.m */,
+				836356E71B4F6B330087B4EC /* RHMessageData.h */,
+				836356E81B4F6B330087B4EC /* RHMessageData.m */,
+				836356EA1B4F6D030087B4EC /* RHMessageTextCell.h */,
+				836356EB1B4F6D030087B4EC /* RHMessageTextCell.m */,
+				836356F01B4F73770087B4EC /* RHChatView.h */,
+				836356F11B4F73770087B4EC /* RHChatView.m */,
+				836356F31B4F75BE0087B4EC /* RHChatViewAdapter.h */,
+				836356F41B4F75BE0087B4EC /* RHChatViewAdapter.m */,
 			);
 			path = RHTest;
 			sourceTree = "<group>";
@@ -762,8 +792,10 @@
 				83E860001B49085A00A56D6F /* ViewController.m in Sources */,
 				83E860851B490D9F00A56D6F /* UIDevice+App.m in Sources */,
 				83E860881B490D9F00A56D6F /* RHHttpCacheOperation.m in Sources */,
+				836356E61B4F6A8B0087B4EC /* RHMessageImageCell.m in Sources */,
 				83E860801B490D9F00A56D6F /* NSFileManager+App.m in Sources */,
 				83E860C21B490DB800A56D6F /* GetSinaShowRoomList.m in Sources */,
+				836356EC1B4F6D030087B4EC /* RHMessageTextCell.m in Sources */,
 				83E860951B490D9F00A56D6F /* RHSerialQueue.m in Sources */,
 				83E860911B490D9F00A56D6F /* RHTableViewAdapter.m in Sources */,
 				83EECEBB1B4BEAD500F60B27 /* UIView+RHToast.m in Sources */,
@@ -771,23 +803,27 @@
 				83E8607E1B490D9F00A56D6F /* NSData+App.m in Sources */,
 				83E860C81B490DB800A56D6F /* RoomLiveInfo.m in Sources */,
 				83E8607C1B490D9F00A56D6F /* RHAudioMp3Output.m in Sources */,
+				836356F21B4F73770087B4EC /* RHChatView.m in Sources */,
 				83E860961B490D9F00A56D6F /* RHTask.m in Sources */,
 				83E85FFD1B49085A00A56D6F /* AppDelegate.m in Sources */,
 				83E860C51B490DB800A56D6F /* SinaShowHallView.m in Sources */,
 				83E860871B490D9F00A56D6F /* UIImage+App.m in Sources */,
 				83E860901B490D9F00A56D6F /* RHTableView.m in Sources */,
 				83E860BE1B490DB800A56D6F /* GetServerInfo.m in Sources */,
+				836356E91B4F6B330087B4EC /* RHMessageData.m in Sources */,
 				83E860891B490D9F00A56D6F /* RHHttpDownloadOperation.m in Sources */,
 				83E860C61B490DB800A56D6F /* SinaShowHallViewAdapter.m in Sources */,
 				83E860941B490D9F00A56D6F /* RHQueue.m in Sources */,
 				83E8607B1B490D9F00A56D6F /* RHAudioCafOutput.m in Sources */,
 				83E860811B490D9F00A56D6F /* NSNull+App.m in Sources */,
 				83E860C91B490DB800A56D6F /* SinaShowRoomView.m in Sources */,
+				836356F51B4F75BE0087B4EC /* RHChatViewAdapter.m in Sources */,
 				83E85FFA1B49085A00A56D6F /* main.m in Sources */,
 				83E8608E1B490D9F00A56D6F /* RHHttpUploadOperation.m in Sources */,
 				83E8608C1B490D9F00A56D6F /* RHHttpOperation.m in Sources */,
 				83E860BF1B490DB800A56D6F /* TestDownloader.m in Sources */,
 				83E860C01B490DB800A56D6F /* RHViewController.m in Sources */,
+				836356E31B4F651E0087B4EC /* RHMessageCell.m in Sources */,
 				83E860791B490D9F00A56D6F /* RHAudioPlayer.m in Sources */,
 				83E8607D1B490D9F00A56D6F /* RHAudioRecorder.m in Sources */,
 				83E860CA1B490DB800A56D6F /* SinaShowRoomViewController.m in Sources */,

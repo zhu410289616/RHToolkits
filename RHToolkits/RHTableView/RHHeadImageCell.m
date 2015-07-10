@@ -15,9 +15,9 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         _iconImageView = [[UIImageView alloc] init];
-        [self addSubview:_iconImageView];
+        [self.contentView addSubview:_iconImageView];
         _titleLabel = [[TTTAttributedLabel alloc] initWithFrame:CGRectZero];
-        [self addSubview:_titleLabel];
+        [self.contentView addSubview:_titleLabel];
     }
     return self;
 }
