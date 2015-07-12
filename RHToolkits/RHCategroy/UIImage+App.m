@@ -35,4 +35,13 @@
     return [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:tName ofType:tType]];
 }
 
+- (UIImage *)stretchImageWithInsets:(UIEdgeInsets)insets
+{
+    if ([self respondsToSelector:@selector(resizableImageWithCapInsets:resizingMode:)]) {
+        return [self resizableImageWithCapInsets:insets resizingMode:UIImageResizingModeStretch];
+    } else {
+        return [self resizableImageWithCapInsets:insets];
+    }
+}
+
 @end

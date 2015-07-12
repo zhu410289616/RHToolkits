@@ -6,10 +6,10 @@
 //  Copyright (c) 2015年 zhuruhong. All rights reserved.
 //
 
-#import "RHMessageCell.h"
+#import "RHMessageBaseCell.h"
 #import "TTTAttributedLabel.h"
 
-@interface RHMessageTextCell : RHMessageCell
+@interface RHMessageTextCell : RHMessageBaseCell
 
 @property (nonatomic, strong, readonly) CALayer *mask;
 

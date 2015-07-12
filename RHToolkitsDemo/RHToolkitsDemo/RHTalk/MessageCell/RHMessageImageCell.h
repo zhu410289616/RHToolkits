@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 zhuruhong. All rights reserved.
 //
 
-#import "RHMessageCell.h"
+#import "RHMessageBaseCell.h"
 
-@interface RHMessageImageCell : RHMessageCell
+@interface RHMessageImageCell : RHMessageBaseCell
 
 @property (nonatomic, strong, readonly) UIImageView *imageImageView;
 @property (nonatomic, strong, readonly) UIActivityIndicatorView *indicatorView;

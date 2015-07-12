@@ -9,13 +9,38 @@
 /* Begin PBXBuildFile section */
 		614CBF2D9FD9AFB2D11DB109 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C841EED634B35126D6474175 /* libPods.a */; };
 		836356E01B4E223E0087B4EC /* RHStretchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356DF1B4E223E0087B4EC /* RHStretchTableView.m */; };
-		836356E31B4F651E0087B4EC /* RHMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356E21B4F651E0087B4EC /* RHMessageCell.m */; };
-		836356E61B4F6A8B0087B4EC /* RHMessageImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356E51B4F6A8B0087B4EC /* RHMessageImageCell.m */; };
-		836356E91B4F6B330087B4EC /* RHMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356E81B4F6B330087B4EC /* RHMessageData.m */; };
-		836356EC1B4F6D030087B4EC /* RHMessageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356EB1B4F6D030087B4EC /* RHMessageTextCell.m */; };
-		836356F21B4F73770087B4EC /* RHChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356F11B4F73770087B4EC /* RHChatView.m */; };
-		836356F51B4F75BE0087B4EC /* RHChatViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356F41B4F75BE0087B4EC /* RHChatViewAdapter.m */; };
 		836AE3421B4D4B4900EA7AAD /* NSObject+sharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */; };
+		8379E03A1B529F6900C3B6DD /* RHLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E0391B529F6900C3B6DD /* RHLeftViewController.m */; };
+		8379E03D1B529F7A00C3B6DD /* RHMiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E03C1B529F7A00C3B6DD /* RHMiddleViewController.m */; };
+		8379E0431B52A38000C3B6DD /* RHLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E0421B52A38000C3B6DD /* RHLeftView.m */; };
+		8379E0461B52A3A100C3B6DD /* RHLeftViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E0451B52A3A100C3B6DD /* RHLeftViewAdapter.m */; };
+		8379E0491B52A48E00C3B6DD /* RHLeftViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E0481B52A48E00C3B6DD /* RHLeftViewCell.m */; };
+		83B94BA31B509FDC0068D6E7 /* RHProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BA21B509FDC0068D6E7 /* RHProgressLayer.m */; };
+		83B94BA61B50A1580068D6E7 /* RHCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BA51B50A1580068D6E7 /* RHCircularProgressLayer.m */; };
+		83B94BA91B50A23D0068D6E7 /* RHProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BA81B50A23D0068D6E7 /* RHProgressView.m */; };
+		83B94BBA1B50CA000068D6E7 /* RHTalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BB91B50CA000068D6E7 /* RHTalkViewController.m */; };
+		83B94BBD1B50CA0F0068D6E7 /* RHTalkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BBC1B50CA0F0068D6E7 /* RHTalkView.m */; };
+		83B94BC01B50CB380068D6E7 /* RHTalkViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BBF1B50CB380068D6E7 /* RHTalkViewAdapter.m */; };
+		83B94BD11B50CB780068D6E7 /* RHMessageBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BC31B50CB780068D6E7 /* RHMessageBaseCell.m */; };
+		83B94BD21B50CB780068D6E7 /* RHMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BC51B50CB780068D6E7 /* RHMessageCell.m */; };
+		83B94BD31B50CB780068D6E7 /* RHMessageImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BC71B50CB780068D6E7 /* RHMessageImageCell.m */; };
+		83B94BD41B50CB780068D6E7 /* RHMessageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BC91B50CB780068D6E7 /* RHMessageTextCell.m */; };
+		83B94BD51B50CB780068D6E7 /* RHMessageTipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BCB1B50CB780068D6E7 /* RHMessageTipCell.m */; };
+		83B94BD61B50CB780068D6E7 /* RHMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BCE1B50CB780068D6E7 /* RHMessageData.m */; };
+		83B94BD71B50CB780068D6E7 /* RHTextMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BD01B50CB780068D6E7 /* RHTextMessage.m */; };
+		83B94BDA1B50D0260068D6E7 /* RHImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BD91B50D0260068D6E7 /* RHImageMessage.m */; };
+		83B94BE61B511AAD0068D6E7 /* bubble_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B94BDD1B511AAD0068D6E7 /* bubble_left@2x.png */; };
+		83B94BE71B511AAD0068D6E7 /* bubble_left_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B94BDE1B511AAD0068D6E7 /* bubble_left_down@2x.png */; };
+		83B94BE81B511AAD0068D6E7 /* bubble_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B94BDF1B511AAD0068D6E7 /* bubble_right@2x.png */; };
+		83B94BE91B511AAD0068D6E7 /* bubble_right_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B94BE01B511AAD0068D6E7 /* bubble_right_down@2x.png */; };
+		83B94BEA1B511AAD0068D6E7 /* bubble_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B94BE21B511AAD0068D6E7 /* bubble_left@3x.png */; };
+		83B94BEB1B511AAD0068D6E7 /* bubble_left_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B94BE31B511AAD0068D6E7 /* bubble_left_down@3x.png */; };
+		83B94BEC1B511AAD0068D6E7 /* bubble_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B94BE41B511AAD0068D6E7 /* bubble_right@3x.png */; };
+		83B94BED1B511AAD0068D6E7 /* bubble_right_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B94BE51B511AAD0068D6E7 /* bubble_right_down@3x.png */; };
+		83B94BF51B5129380068D6E7 /* tip_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B94BF41B5129380068D6E7 /* tip_bg@2x.png */; };
+		83B94BF81B512A180068D6E7 /* RHTipMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BF71B512A180068D6E7 /* RHTipMessage.m */; };
+		83B94BFB1B512E9E0068D6E7 /* RHAudioMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BFA1B512E9E0068D6E7 /* RHAudioMessage.m */; };
+		83B94BFE1B512EF90068D6E7 /* RHMessageAudioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BFD1B512EF90068D6E7 /* RHMessageAudioCell.m */; };
 		83E85FFA1B49085A00A56D6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FF91B49085A00A56D6F /* main.m */; };
 		83E85FFD1B49085A00A56D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FFC1B49085A00A56D6F /* AppDelegate.m */; };
 		83E860001B49085A00A56D6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FFF1B49085A00A56D6F /* ViewController.m */; };
@@ -90,20 +115,61 @@
 		5D9884DD6C1CD0E70258A7A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		836356DE1B4E223E0087B4EC /* RHStretchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHStretchTableView.h; sourceTree = "<group>"; };
 		836356DF1B4E223E0087B4EC /* RHStretchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHStretchTableView.m; sourceTree = "<group>"; };
-		836356E11B4F651E0087B4EC /* RHMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageCell.h; sourceTree = "<group>"; };
-		836356E21B4F651E0087B4EC /* RHMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageCell.m; sourceTree = "<group>"; };
-		836356E41B4F6A8B0087B4EC /* RHMessageImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageImageCell.h; sourceTree = "<group>"; };
-		836356E51B4F6A8B0087B4EC /* RHMessageImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageImageCell.m; sourceTree = "<group>"; };
-		836356E71B4F6B330087B4EC /* RHMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageData.h; sourceTree = "<group>"; };
-		836356E81B4F6B330087B4EC /* RHMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageData.m; sourceTree = "<group>"; };
-		836356EA1B4F6D030087B4EC /* RHMessageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageTextCell.h; sourceTree = "<group>"; };
-		836356EB1B4F6D030087B4EC /* RHMessageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageTextCell.m; sourceTree = "<group>"; };
-		836356F01B4F73770087B4EC /* RHChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHChatView.h; sourceTree = "<group>"; };
-		836356F11B4F73770087B4EC /* RHChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHChatView.m; sourceTree = "<group>"; };
-		836356F31B4F75BE0087B4EC /* RHChatViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHChatViewAdapter.h; sourceTree = "<group>"; };
-		836356F41B4F75BE0087B4EC /* RHChatViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHChatViewAdapter.m; sourceTree = "<group>"; };
 		836AE3401B4D4B4900EA7AAD /* NSObject+sharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+sharedInstance.h"; sourceTree = "<group>"; };
 		836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+sharedInstance.m"; sourceTree = "<group>"; };
+		8379E0381B529F6900C3B6DD /* RHLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLeftViewController.h; sourceTree = "<group>"; };
+		8379E0391B529F6900C3B6DD /* RHLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLeftViewController.m; sourceTree = "<group>"; };
+		8379E03B1B529F7A00C3B6DD /* RHMiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMiddleViewController.h; sourceTree = "<group>"; };
+		8379E03C1B529F7A00C3B6DD /* RHMiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMiddleViewController.m; sourceTree = "<group>"; };
+		8379E0411B52A38000C3B6DD /* RHLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLeftView.h; sourceTree = "<group>"; };
+		8379E0421B52A38000C3B6DD /* RHLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLeftView.m; sourceTree = "<group>"; };
+		8379E0441B52A3A100C3B6DD /* RHLeftViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLeftViewAdapter.h; sourceTree = "<group>"; };
+		8379E0451B52A3A100C3B6DD /* RHLeftViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLeftViewAdapter.m; sourceTree = "<group>"; };
+		8379E0471B52A48E00C3B6DD /* RHLeftViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLeftViewCell.h; sourceTree = "<group>"; };
+		8379E0481B52A48E00C3B6DD /* RHLeftViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLeftViewCell.m; sourceTree = "<group>"; };
+		83B94BA11B509FDC0068D6E7 /* RHProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHProgressLayer.h; sourceTree = "<group>"; };
+		83B94BA21B509FDC0068D6E7 /* RHProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHProgressLayer.m; sourceTree = "<group>"; };
+		83B94BA41B50A1580068D6E7 /* RHCircularProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCircularProgressLayer.h; sourceTree = "<group>"; };
+		83B94BA51B50A1580068D6E7 /* RHCircularProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCircularProgressLayer.m; sourceTree = "<group>"; };
+		83B94BA71B50A23D0068D6E7 /* RHProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHProgressView.h; sourceTree = "<group>"; };
+		83B94BA81B50A23D0068D6E7 /* RHProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHProgressView.m; sourceTree = "<group>"; };
+		83B94BB81B50CA000068D6E7 /* RHTalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTalkViewController.h; sourceTree = "<group>"; };
+		83B94BB91B50CA000068D6E7 /* RHTalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTalkViewController.m; sourceTree = "<group>"; };
+		83B94BBB1B50CA0F0068D6E7 /* RHTalkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTalkView.h; sourceTree = "<group>"; };
+		83B94BBC1B50CA0F0068D6E7 /* RHTalkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTalkView.m; sourceTree = "<group>"; };
+		83B94BBE1B50CB380068D6E7 /* RHTalkViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTalkViewAdapter.h; sourceTree = "<group>"; };
+		83B94BBF1B50CB380068D6E7 /* RHTalkViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTalkViewAdapter.m; sourceTree = "<group>"; };
+		83B94BC21B50CB780068D6E7 /* RHMessageBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageBaseCell.h; sourceTree = "<group>"; };
+		83B94BC31B50CB780068D6E7 /* RHMessageBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageBaseCell.m; sourceTree = "<group>"; };
+		83B94BC41B50CB780068D6E7 /* RHMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageCell.h; sourceTree = "<group>"; };
+		83B94BC51B50CB780068D6E7 /* RHMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageCell.m; sourceTree = "<group>"; };
+		83B94BC61B50CB780068D6E7 /* RHMessageImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageImageCell.h; sourceTree = "<group>"; };
+		83B94BC71B50CB780068D6E7 /* RHMessageImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageImageCell.m; sourceTree = "<group>"; };
+		83B94BC81B50CB780068D6E7 /* RHMessageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageTextCell.h; sourceTree = "<group>"; };
+		83B94BC91B50CB780068D6E7 /* RHMessageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageTextCell.m; sourceTree = "<group>"; };
+		83B94BCA1B50CB780068D6E7 /* RHMessageTipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageTipCell.h; sourceTree = "<group>"; };
+		83B94BCB1B50CB780068D6E7 /* RHMessageTipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageTipCell.m; sourceTree = "<group>"; };
+		83B94BCD1B50CB780068D6E7 /* RHMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageData.h; sourceTree = "<group>"; };
+		83B94BCE1B50CB780068D6E7 /* RHMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageData.m; sourceTree = "<group>"; };
+		83B94BCF1B50CB780068D6E7 /* RHTextMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTextMessage.h; sourceTree = "<group>"; };
+		83B94BD01B50CB780068D6E7 /* RHTextMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTextMessage.m; sourceTree = "<group>"; };
+		83B94BD81B50D0260068D6E7 /* RHImageMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHImageMessage.h; sourceTree = "<group>"; };
+		83B94BD91B50D0260068D6E7 /* RHImageMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHImageMessage.m; sourceTree = "<group>"; };
+		83B94BDD1B511AAD0068D6E7 /* bubble_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_left@2x.png"; sourceTree = "<group>"; };
+		83B94BDE1B511AAD0068D6E7 /* bubble_left_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_left_down@2x.png"; sourceTree = "<group>"; };
+		83B94BDF1B511AAD0068D6E7 /* bubble_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_right@2x.png"; sourceTree = "<group>"; };
+		83B94BE01B511AAD0068D6E7 /* bubble_right_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_right_down@2x.png"; sourceTree = "<group>"; };
+		83B94BE21B511AAD0068D6E7 /* bubble_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_left@3x.png"; sourceTree = "<group>"; };
+		83B94BE31B511AAD0068D6E7 /* bubble_left_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_left_down@3x.png"; sourceTree = "<group>"; };
+		83B94BE41B511AAD0068D6E7 /* bubble_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_right@3x.png"; sourceTree = "<group>"; };
+		83B94BE51B511AAD0068D6E7 /* bubble_right_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_right_down@3x.png"; sourceTree = "<group>"; };
+		83B94BF41B5129380068D6E7 /* tip_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip_bg@2x.png"; sourceTree = "<group>"; };
+		83B94BF61B512A180068D6E7 /* RHTipMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTipMessage.h; sourceTree = "<group>"; };
+		83B94BF71B512A180068D6E7 /* RHTipMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTipMessage.m; sourceTree = "<group>"; };
+		83B94BF91B512E9E0068D6E7 /* RHAudioMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAudioMessage.h; sourceTree = "<group>"; };
+		83B94BFA1B512E9E0068D6E7 /* RHAudioMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAudioMessage.m; sourceTree = "<group>"; };
+		83B94BFC1B512EF90068D6E7 /* RHMessageAudioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageAudioCell.h; sourceTree = "<group>"; };
+		83B94BFD1B512EF90068D6E7 /* RHMessageAudioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageAudioCell.m; sourceTree = "<group>"; };
 		83E85FF41B49085A00A56D6F /* RHToolkitsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHToolkitsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E85FF81B49085A00A56D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E85FF91B49085A00A56D6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -272,6 +338,107 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8379E0371B529DA100C3B6DD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8379E0381B529F6900C3B6DD /* RHLeftViewController.h */,
+				8379E0391B529F6900C3B6DD /* RHLeftViewController.m */,
+				8379E03B1B529F7A00C3B6DD /* RHMiddleViewController.h */,
+				8379E03C1B529F7A00C3B6DD /* RHMiddleViewController.m */,
+				8379E0411B52A38000C3B6DD /* RHLeftView.h */,
+				8379E0421B52A38000C3B6DD /* RHLeftView.m */,
+				8379E0441B52A3A100C3B6DD /* RHLeftViewAdapter.h */,
+				8379E0451B52A3A100C3B6DD /* RHLeftViewAdapter.m */,
+				8379E0471B52A48E00C3B6DD /* RHLeftViewCell.h */,
+				8379E0481B52A48E00C3B6DD /* RHLeftViewCell.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83B94BB71B50C9CB0068D6E7 /* RHTalk */ = {
+			isa = PBXGroup;
+			children = (
+				83B94BDB1B511AAD0068D6E7 /* Resources */,
+				83B94BC11B50CB780068D6E7 /* MessageCell */,
+				83B94BCC1B50CB780068D6E7 /* MessageData */,
+				83B94BB81B50CA000068D6E7 /* RHTalkViewController.h */,
+				83B94BB91B50CA000068D6E7 /* RHTalkViewController.m */,
+				83B94BBB1B50CA0F0068D6E7 /* RHTalkView.h */,
+				83B94BBC1B50CA0F0068D6E7 /* RHTalkView.m */,
+				83B94BBE1B50CB380068D6E7 /* RHTalkViewAdapter.h */,
+				83B94BBF1B50CB380068D6E7 /* RHTalkViewAdapter.m */,
+			);
+			path = RHTalk;
+			sourceTree = "<group>";
+		};
+		83B94BC11B50CB780068D6E7 /* MessageCell */ = {
+			isa = PBXGroup;
+			children = (
+				83B94BC21B50CB780068D6E7 /* RHMessageBaseCell.h */,
+				83B94BC31B50CB780068D6E7 /* RHMessageBaseCell.m */,
+				83B94BC41B50CB780068D6E7 /* RHMessageCell.h */,
+				83B94BC51B50CB780068D6E7 /* RHMessageCell.m */,
+				83B94BC61B50CB780068D6E7 /* RHMessageImageCell.h */,
+				83B94BC71B50CB780068D6E7 /* RHMessageImageCell.m */,
+				83B94BC81B50CB780068D6E7 /* RHMessageTextCell.h */,
+				83B94BC91B50CB780068D6E7 /* RHMessageTextCell.m */,
+				83B94BCA1B50CB780068D6E7 /* RHMessageTipCell.h */,
+				83B94BCB1B50CB780068D6E7 /* RHMessageTipCell.m */,
+				83B94BFC1B512EF90068D6E7 /* RHMessageAudioCell.h */,
+				83B94BFD1B512EF90068D6E7 /* RHMessageAudioCell.m */,
+			);
+			path = MessageCell;
+			sourceTree = "<group>";
+		};
+		83B94BCC1B50CB780068D6E7 /* MessageData */ = {
+			isa = PBXGroup;
+			children = (
+				83B94BCD1B50CB780068D6E7 /* RHMessageData.h */,
+				83B94BCE1B50CB780068D6E7 /* RHMessageData.m */,
+				83B94BCF1B50CB780068D6E7 /* RHTextMessage.h */,
+				83B94BD01B50CB780068D6E7 /* RHTextMessage.m */,
+				83B94BD81B50D0260068D6E7 /* RHImageMessage.h */,
+				83B94BD91B50D0260068D6E7 /* RHImageMessage.m */,
+				83B94BF61B512A180068D6E7 /* RHTipMessage.h */,
+				83B94BF71B512A180068D6E7 /* RHTipMessage.m */,
+				83B94BF91B512E9E0068D6E7 /* RHAudioMessage.h */,
+				83B94BFA1B512E9E0068D6E7 /* RHAudioMessage.m */,
+			);
+			path = MessageData;
+			sourceTree = "<group>";
+		};
+		83B94BDB1B511AAD0068D6E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83B94BF41B5129380068D6E7 /* tip_bg@2x.png */,
+				83B94BDC1B511AAD0068D6E7 /* 2x */,
+				83B94BE11B511AAD0068D6E7 /* 3x */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83B94BDC1B511AAD0068D6E7 /* 2x */ = {
+			isa = PBXGroup;
+			children = (
+				83B94BDD1B511AAD0068D6E7 /* bubble_left@2x.png */,
+				83B94BDE1B511AAD0068D6E7 /* bubble_left_down@2x.png */,
+				83B94BDF1B511AAD0068D6E7 /* bubble_right@2x.png */,
+				83B94BE01B511AAD0068D6E7 /* bubble_right_down@2x.png */,
+			);
+			path = 2x;
+			sourceTree = "<group>";
+		};
+		83B94BE11B511AAD0068D6E7 /* 3x */ = {
+			isa = PBXGroup;
+			children = (
+				83B94BE21B511AAD0068D6E7 /* bubble_left@3x.png */,
+				83B94BE31B511AAD0068D6E7 /* bubble_left_down@3x.png */,
+				83B94BE41B511AAD0068D6E7 /* bubble_right@3x.png */,
+				83B94BE51B511AAD0068D6E7 /* bubble_right_down@3x.png */,
+			);
+			path = 3x;
+			sourceTree = "<group>";
+		};
 		83E85FEB1B49085A00A56D6F = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +462,8 @@
 		83E85FF61B49085A00A56D6F /* RHToolkitsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8379E0371B529DA100C3B6DD /* Home */,
+				83B94BB71B50C9CB0068D6E7 /* RHTalk */,
 				83E860971B490DB800A56D6F /* RHMacro */,
 				83E8609A1B490DB800A56D6F /* RHTest */,
 				83E8609F1B490DB800A56D6F /* RHViewController */,
@@ -548,18 +717,12 @@
 				83E8609C1B490DB800A56D6F /* GetServerInfo.m */,
 				83E8609D1B490DB800A56D6F /* TestDownloader.h */,
 				83E8609E1B490DB800A56D6F /* TestDownloader.m */,
-				836356E11B4F651E0087B4EC /* RHMessageCell.h */,
-				836356E21B4F651E0087B4EC /* RHMessageCell.m */,
-				836356E41B4F6A8B0087B4EC /* RHMessageImageCell.h */,
-				836356E51B4F6A8B0087B4EC /* RHMessageImageCell.m */,
-				836356E71B4F6B330087B4EC /* RHMessageData.h */,
-				836356E81B4F6B330087B4EC /* RHMessageData.m */,
-				836356EA1B4F6D030087B4EC /* RHMessageTextCell.h */,
-				836356EB1B4F6D030087B4EC /* RHMessageTextCell.m */,
-				836356F01B4F73770087B4EC /* RHChatView.h */,
-				836356F11B4F73770087B4EC /* RHChatView.m */,
-				836356F31B4F75BE0087B4EC /* RHChatViewAdapter.h */,
-				836356F41B4F75BE0087B4EC /* RHChatViewAdapter.m */,
+				83B94BA11B509FDC0068D6E7 /* RHProgressLayer.h */,
+				83B94BA21B509FDC0068D6E7 /* RHProgressLayer.m */,
+				83B94BA41B50A1580068D6E7 /* RHCircularProgressLayer.h */,
+				83B94BA51B50A1580068D6E7 /* RHCircularProgressLayer.m */,
+				83B94BA71B50A23D0068D6E7 /* RHProgressView.h */,
+				83B94BA81B50A23D0068D6E7 /* RHProgressView.m */,
 			);
 			path = RHTest;
 			sourceTree = "<group>";
@@ -729,8 +892,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B94BE61B511AAD0068D6E7 /* bubble_left@2x.png in Resources */,
+				83B94BE71B511AAD0068D6E7 /* bubble_left_down@2x.png in Resources */,
+				83B94BEB1B511AAD0068D6E7 /* bubble_left_down@3x.png in Resources */,
+				83B94BEA1B511AAD0068D6E7 /* bubble_left@3x.png in Resources */,
 				83E860081B49085A00A56D6F /* LaunchScreen.xib in Resources */,
+				83B94BEC1B511AAD0068D6E7 /* bubble_right@3x.png in Resources */,
+				83B94BE91B511AAD0068D6E7 /* bubble_right_down@2x.png in Resources */,
+				83B94BE81B511AAD0068D6E7 /* bubble_right@2x.png in Resources */,
+				83B94BED1B511AAD0068D6E7 /* bubble_right_down@3x.png in Resources */,
 				83E860051B49085A00A56D6F /* Images.xcassets in Resources */,
+				83B94BF51B5129380068D6E7 /* tip_bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,20 +954,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E8607F1B490D9F00A56D6F /* NSDate+App.m in Sources */,
+				83B94BD21B50CB780068D6E7 /* RHMessageCell.m in Sources */,
+				83B94BD41B50CB780068D6E7 /* RHMessageTextCell.m in Sources */,
 				83E8608D1B490D9F00A56D6F /* RHHttpPostOperation.m in Sources */,
+				83B94BD11B50CB780068D6E7 /* RHMessageBaseCell.m in Sources */,
 				83E860C71B490DB800A56D6F /* SinaShowHallViewController.m in Sources */,
 				83E860861B490D9F00A56D6F /* UIFont+App.m in Sources */,
 				83E8608F1B490D9F00A56D6F /* RHHeadImageCell.m in Sources */,
 				836AE3421B4D4B4900EA7AAD /* NSObject+sharedInstance.m in Sources */,
+				8379E0491B52A48E00C3B6DD /* RHLeftViewCell.m in Sources */,
+				83B94BD61B50CB780068D6E7 /* RHMessageData.m in Sources */,
 				83EECEBF1B4BF7E900F60B27 /* UIView+RHLoading.m in Sources */,
+				83B94BFB1B512E9E0068D6E7 /* RHAudioMessage.m in Sources */,
 				83E860821B490D9F00A56D6F /* NSObject+Log.m in Sources */,
+				8379E0431B52A38000C3B6DD /* RHLeftView.m in Sources */,
 				83E860001B49085A00A56D6F /* ViewController.m in Sources */,
 				83E860851B490D9F00A56D6F /* UIDevice+App.m in Sources */,
 				83E860881B490D9F00A56D6F /* RHHttpCacheOperation.m in Sources */,
-				836356E61B4F6A8B0087B4EC /* RHMessageImageCell.m in Sources */,
+				83B94BBA1B50CA000068D6E7 /* RHTalkViewController.m in Sources */,
 				83E860801B490D9F00A56D6F /* NSFileManager+App.m in Sources */,
+				83B94BD71B50CB780068D6E7 /* RHTextMessage.m in Sources */,
 				83E860C21B490DB800A56D6F /* GetSinaShowRoomList.m in Sources */,
-				836356EC1B4F6D030087B4EC /* RHMessageTextCell.m in Sources */,
 				83E860951B490D9F00A56D6F /* RHSerialQueue.m in Sources */,
 				83E860911B490D9F00A56D6F /* RHTableViewAdapter.m in Sources */,
 				83EECEBB1B4BEAD500F60B27 /* UIView+RHToast.m in Sources */,
@@ -803,33 +982,40 @@
 				83E8607E1B490D9F00A56D6F /* NSData+App.m in Sources */,
 				83E860C81B490DB800A56D6F /* RoomLiveInfo.m in Sources */,
 				83E8607C1B490D9F00A56D6F /* RHAudioMp3Output.m in Sources */,
-				836356F21B4F73770087B4EC /* RHChatView.m in Sources */,
 				83E860961B490D9F00A56D6F /* RHTask.m in Sources */,
 				83E85FFD1B49085A00A56D6F /* AppDelegate.m in Sources */,
+				8379E03A1B529F6900C3B6DD /* RHLeftViewController.m in Sources */,
 				83E860C51B490DB800A56D6F /* SinaShowHallView.m in Sources */,
 				83E860871B490D9F00A56D6F /* UIImage+App.m in Sources */,
 				83E860901B490D9F00A56D6F /* RHTableView.m in Sources */,
 				83E860BE1B490DB800A56D6F /* GetServerInfo.m in Sources */,
-				836356E91B4F6B330087B4EC /* RHMessageData.m in Sources */,
 				83E860891B490D9F00A56D6F /* RHHttpDownloadOperation.m in Sources */,
 				83E860C61B490DB800A56D6F /* SinaShowHallViewAdapter.m in Sources */,
+				83B94BD51B50CB780068D6E7 /* RHMessageTipCell.m in Sources */,
+				83B94BBD1B50CA0F0068D6E7 /* RHTalkView.m in Sources */,
 				83E860941B490D9F00A56D6F /* RHQueue.m in Sources */,
 				83E8607B1B490D9F00A56D6F /* RHAudioCafOutput.m in Sources */,
 				83E860811B490D9F00A56D6F /* NSNull+App.m in Sources */,
+				83B94BA91B50A23D0068D6E7 /* RHProgressView.m in Sources */,
 				83E860C91B490DB800A56D6F /* SinaShowRoomView.m in Sources */,
-				836356F51B4F75BE0087B4EC /* RHChatViewAdapter.m in Sources */,
+				83B94BC01B50CB380068D6E7 /* RHTalkViewAdapter.m in Sources */,
 				83E85FFA1B49085A00A56D6F /* main.m in Sources */,
 				83E8608E1B490D9F00A56D6F /* RHHttpUploadOperation.m in Sources */,
+				83B94BD31B50CB780068D6E7 /* RHMessageImageCell.m in Sources */,
+				83B94BFE1B512EF90068D6E7 /* RHMessageAudioCell.m in Sources */,
+				8379E0461B52A3A100C3B6DD /* RHLeftViewAdapter.m in Sources */,
 				83E8608C1B490D9F00A56D6F /* RHHttpOperation.m in Sources */,
 				83E860BF1B490DB800A56D6F /* TestDownloader.m in Sources */,
 				83E860C01B490DB800A56D6F /* RHViewController.m in Sources */,
-				836356E31B4F651E0087B4EC /* RHMessageCell.m in Sources */,
 				83E860791B490D9F00A56D6F /* RHAudioPlayer.m in Sources */,
+				83B94BF81B512A180068D6E7 /* RHTipMessage.m in Sources */,
 				83E8607D1B490D9F00A56D6F /* RHAudioRecorder.m in Sources */,
+				83B94BA61B50A1580068D6E7 /* RHCircularProgressLayer.m in Sources */,
 				83E860CA1B490DB800A56D6F /* SinaShowRoomViewController.m in Sources */,
 				83E8608B1B490D9F00A56D6F /* RHHttpMultiPostOperation.m in Sources */,
 				83E8607A1B490D9F00A56D6F /* RHAudioAmrOutput.m in Sources */,
 				83E860841B490D9F00A56D6F /* UIColor+App.m in Sources */,
+				8379E03D1B529F7A00C3B6DD /* RHMiddleViewController.m in Sources */,
 				83E860C31B490DB800A56D6F /* HallRoomInfo.m in Sources */,
 				83E860CC1B490DB800A56D6F /* WebServerViewController.m in Sources */,
 				83E860C41B490DB800A56D6F /* SinaShowHallCell.m in Sources */,
@@ -837,6 +1023,8 @@
 				83E860931B490D9F00A56D6F /* RHConcurrentQueue.m in Sources */,
 				83E860C11B490DB800A56D6F /* GetRoomLiveInfo.m in Sources */,
 				83E860921B490D9F00A56D6F /* RHTableViewCell.m in Sources */,
+				83B94BDA1B50D0260068D6E7 /* RHImageMessage.m in Sources */,
+				83B94BA31B509FDC0068D6E7 /* RHProgressLayer.m in Sources */,
 				83E8608A1B490D9F00A56D6F /* RHHttpGetOperation.m in Sources */,
 				83E860831B490D9F00A56D6F /* NSString+App.m in Sources */,
 				836356E01B4E223E0087B4EC /* RHStretchTableView.m in Sources */,

@@ -15,4 +15,6 @@
 + (UIImage *)imageWithName:(NSString *)tName;
 + (UIImage *)imageWithName:(NSString *)tName type:(NSString *)tType;
 
+- (UIImage *)stretchImageWithInsets:(UIEdgeInsets)insets;
+
 @end

@@ -13,16 +13,9 @@
 #import "RHStretchTableView.h"
 #import "Masonry.h"
 
-#import "RHChatView.h"
-#import "RHChatViewAdapter.h"
-#import "RHMessageData.h"
-
 @interface ViewController ()
 {
     RHStretchTableView *_stretchTableView;
-    
-    RHChatView *_chatView;
-    RHChatViewAdapter *_chatAdapter;
 }
 
 @end
@@ -53,23 +46,6 @@
 //        make.center.equalTo(self.view);
 //        make.size.equalTo(self.view);
 //    }];
-    
-    
-    _chatView = [[RHChatView alloc] init];
-    [self.view addSubview:_chatView];
-    [_chatView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.center.equalTo(self.view);
-        make.size.equalTo(self.view);
-    }];
-    
-    _chatAdapter = [[RHChatViewAdapter alloc] init];
-    [_chatView.chatTableView setTableViewAdapter:_chatAdapter];
-    
-    for (int i=0; i<50; i++) {
-        RHMessageData *message = [[RHMessageData alloc] init];
-        [_chatAdapter addCellData:message];
-    }
-    [_chatView.chatTableView reloadData];
     
 }
 

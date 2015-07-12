@@ -7,9 +7,17 @@
 //
 
 #import "AppDelegate.h"
+
+#import "RHLeftViewController.h"
+#import "RHMiddleViewController.h"
+#import "MMDrawerController.h"
+
 #import "ViewController.h"
 
 @interface AppDelegate ()
+{
+    MMDrawerController *_drawerController;
+}
 
 @end
 
@@ -19,10 +27,23 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    RHLeftViewController *leftController = [[RHLeftViewController alloc] init];
+    RHMiddleViewController *middleController = [[RHMiddleViewController alloc] init];
+    
+    UINavigationController *leftNav = [[UINavigationController alloc] initWithRootViewController:leftController];
+    UINavigationController *middleNav = [[UINavigationController alloc] initWithRootViewController:middleController];
+    
+    _drawerController = [[MMDrawerController alloc] initWithCenterViewController:middleNav leftDrawerViewController:leftNav];
+    [_drawerController setShowsShadow:YES];
+    [_drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [_drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    ViewController *testController = [[ViewController alloc] init];
-    self.window.rootViewController = testController;
+    //
+//    ViewController *testController = [[ViewController alloc] init];
+    
+    self.window.rootViewController = _drawerController;
     [self.window makeKeyAndVisible];
     
     return YES;

@@ -13,6 +13,7 @@
 
 @optional
 
+- (void)didTableViewSelectIndexPath:(NSIndexPath *)indexPath;
 - (void)didTableViewCellSelect:(id)cellData;
 
 @end

@@ -7,7 +7,6 @@
 //
 
 #import "RHMessageCell.h"
-#import "Masonry.h"
 
 @implementation RHMessageCell
 
@@ -15,34 +14,26 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        
-        //
-        _avatarImageView = [[UIImageView alloc] init];
-        [self.contentView addSubview:_avatarImageView];
-        
-        //
-        _nicknameLabel = [[UILabel alloc] init];
-        [self.contentView addSubview:_nicknameLabel];
-        
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return self;
 }
 
 - (void)updateViewWithData:(id)cellData
 {
-    RHMessageData *messageData = cellData;
+    _messageData = cellData;
     
-    switch (messageData.cellDirection) {
+    switch (_messageData.cellDirection) {
         case RHMessageCellDirectionLeft: {
-            [self updateViewForLeftWithData:cellData];
+            [self updateViewForLeftWithData:_messageData];
             break;
         }
         case RHMessageCellDirectionMiddle: {
-            [self updateViewForMiddleWithData:cellData];
+            [self updateViewForMiddleWithData:_messageData];
             break;
         }
         case RHMessageCellDirectionRight: {
-            [self updateViewForRightWithData:cellData];
+            [self updateViewForRightWithData:_messageData];
             break;
         }
         default: {
@@ -51,19 +42,19 @@
     }//switch
 }
 
-- (void)updateViewForLeftWithData:(id)cellData
+- (void)updateViewForLeftWithData:(RHMessageData *)cellData
 {
-    //override
+    self.contentView.backgroundColor = [UIColor robinEggColor];
 }
 
-- (void)updateViewForMiddleWithData:(id)cellData
+- (void)updateViewForMiddleWithData:(RHMessageData *)cellData
 {
-    //override
+    self.contentView.backgroundColor = [UIColor limeColor];
 }
 
-- (void)updateViewForRightWithData:(id)cellData
+- (void)updateViewForRightWithData:(RHMessageData *)cellData
 {
-    //override
+    self.contentView.backgroundColor = [UIColor beigeColor];
 }
 
 @end

@@ -78,12 +78,16 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
+    if (_delegate && [_delegate respondsToSelector:@selector(didTableViewSelectIndexPath:)]) {
+        [_delegate didTableViewSelectIndexPath:indexPath];
+    }
+    
     if (indexPath.row >= _dataArray.count) {
         return;
     }
     
     id cellData = _dataArray[indexPath.row];
-    if ([_delegate respondsToSelector:@selector(didTableViewCellSelect:)]) {
+    if (_delegate && [_delegate respondsToSelector:@selector(didTableViewCellSelect:)]) {
         [_delegate didTableViewCellSelect:cellData];
     }
 }
