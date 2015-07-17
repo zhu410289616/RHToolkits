@@ -7,8 +7,12 @@
 //
 
 #import "RHMiddleViewController.h"
+#import "RHMiddleView.h"
 
 @interface RHMiddleViewController ()
+{
+    RHMiddleView *_middleView;
+}
 
 @end
 
@@ -19,6 +23,20 @@
     // Do any additional setup after loading the view.
     
     self.title = @"Middle";
+    
+    _middleView = [[RHMiddleView alloc] init];
+    [self.view addSubview:_middleView];
+    [_middleView mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+        make.size.equalTo(self.view);
+    }];
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
     
 }
 
