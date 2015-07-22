@@ -9,6 +9,8 @@
 #import "RHMiddleViewController.h"
 #import "RHMiddleView.h"
 
+#import "NSData+RSA.h"
+
 @interface RHMiddleViewController ()
 {
     RHMiddleView *_middleView;
@@ -31,6 +33,22 @@
         make.size.equalTo(self.view);
     }];
     
+    //rsa encrypt
+    NSString *rsaPublicKeyPath = [[NSBundle mainBundle] pathForResource:@"public_key" ofType:@"der"];
+    NSData *rsaPublicKeyData = [NSData dataWithContentsOfFile:rsaPublicKeyPath];
+    
+    NSString *testStr = @"test ...sfa";
+    NSData *testData = [testStr dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *encryptData = [testData RSAEncryptWithPublicKeyData:rsaPublicKeyData];
+    NSLog(@"encryptData: %@", encryptData);
+    
+    //rsa decrypt
+    NSString *rsaPrivateKeyPath = [[NSBundle mainBundle] pathForResource:@"private_key" ofType:@"p12"];
+    NSData *rsaPrivateKeyData = [NSData dataWithContentsOfFile:rsaPrivateKeyPath];
+    
+    NSData *decryptData = [encryptData RSADecryptWithPrivateKeyData:rsaPrivateKeyData password:@"123456"];
+    NSLog(@"decryptData: %@", decryptData);
+    NSLog(@"decrypt string: %@", [[NSString alloc] initWithData:decryptData encoding:NSUTF8StringEncoding]);
 }
 
 - (void)viewDidAppear:(BOOL)animated

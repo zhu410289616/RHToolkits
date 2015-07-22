@@ -45,6 +45,15 @@
 		8379E0431B52A38000C3B6DD /* RHLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E0421B52A38000C3B6DD /* RHLeftView.m */; };
 		8379E0461B52A3A100C3B6DD /* RHLeftViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E0451B52A3A100C3B6DD /* RHLeftViewAdapter.m */; };
 		8379E0491B52A48E00C3B6DD /* RHLeftViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E0481B52A48E00C3B6DD /* RHLeftViewCell.m */; };
+		837A133B1B5CA5F800DF44AC /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A133A1B5CA5F800DF44AC /* NSData+AES.m */; };
+		837A133E1B5CAAA300DF44AC /* NSData+RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A133D1B5CAAA300DF44AC /* NSData+RSA.m */; };
+		837A13501B5E688900DF44AC /* pkcs8_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 837A13491B5E688900DF44AC /* pkcs8_private_key.pem */; };
+		837A13511B5E688900DF44AC /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 837A134A1B5E688900DF44AC /* private_key.p12 */; };
+		837A13521B5E688900DF44AC /* private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 837A134B1B5E688900DF44AC /* private_key.pem */; };
+		837A13531B5E688900DF44AC /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 837A134C1B5E688900DF44AC /* public_key.der */; };
+		837A13541B5E688900DF44AC /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 837A134D1B5E688900DF44AC /* rsa_public_key.pem */; };
+		837A13551B5E688900DF44AC /* rsaCert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 837A134E1B5E688900DF44AC /* rsaCert.crt */; };
+		837A13561B5E688900DF44AC /* rsaCertReq.csr in Resources */ = {isa = PBXBuildFile; fileRef = 837A134F1B5E688900DF44AC /* rsaCertReq.csr */; };
 		83B94BA31B509FDC0068D6E7 /* RHProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BA21B509FDC0068D6E7 /* RHProgressLayer.m */; };
 		83B94BA61B50A1580068D6E7 /* RHCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BA51B50A1580068D6E7 /* RHCircularProgressLayer.m */; };
 		83B94BA91B50A23D0068D6E7 /* RHProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BA81B50A23D0068D6E7 /* RHProgressView.m */; };
@@ -187,6 +196,17 @@
 		8379E0451B52A3A100C3B6DD /* RHLeftViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLeftViewAdapter.m; sourceTree = "<group>"; };
 		8379E0471B52A48E00C3B6DD /* RHLeftViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLeftViewCell.h; sourceTree = "<group>"; };
 		8379E0481B52A48E00C3B6DD /* RHLeftViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLeftViewCell.m; sourceTree = "<group>"; };
+		837A13391B5CA5F800DF44AC /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		837A133A1B5CA5F800DF44AC /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		837A133C1B5CAAA200DF44AC /* NSData+RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+RSA.h"; sourceTree = "<group>"; };
+		837A133D1B5CAAA300DF44AC /* NSData+RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+RSA.m"; sourceTree = "<group>"; };
+		837A13491B5E688900DF44AC /* pkcs8_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pkcs8_private_key.pem; sourceTree = "<group>"; };
+		837A134A1B5E688900DF44AC /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		837A134B1B5E688900DF44AC /* private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private_key.pem; sourceTree = "<group>"; };
+		837A134C1B5E688900DF44AC /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		837A134D1B5E688900DF44AC /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
+		837A134E1B5E688900DF44AC /* rsaCert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCert.crt; sourceTree = "<group>"; };
+		837A134F1B5E688900DF44AC /* rsaCertReq.csr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCertReq.csr; sourceTree = "<group>"; };
 		83B94BA11B509FDC0068D6E7 /* RHProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHProgressLayer.h; sourceTree = "<group>"; };
 		83B94BA21B509FDC0068D6E7 /* RHProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHProgressLayer.m; sourceTree = "<group>"; };
 		83B94BA41B50A1580068D6E7 /* RHCircularProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCircularProgressLayer.h; sourceTree = "<group>"; };
@@ -496,6 +516,28 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		837A13471B5E688900DF44AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				837A13481B5E688900DF44AC /* rsa */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		837A13481B5E688900DF44AC /* rsa */ = {
+			isa = PBXGroup;
+			children = (
+				837A13491B5E688900DF44AC /* pkcs8_private_key.pem */,
+				837A134A1B5E688900DF44AC /* private_key.p12 */,
+				837A134B1B5E688900DF44AC /* private_key.pem */,
+				837A134C1B5E688900DF44AC /* public_key.der */,
+				837A134D1B5E688900DF44AC /* rsa_public_key.pem */,
+				837A134E1B5E688900DF44AC /* rsaCert.crt */,
+				837A134F1B5E688900DF44AC /* rsaCertReq.csr */,
+			);
+			path = rsa;
+			sourceTree = "<group>";
+		};
 		83B94BB71B50C9CB0068D6E7 /* RHTalk */ = {
 			isa = PBXGroup;
 			children = (
@@ -582,6 +624,7 @@
 		83E85FF61B49085A00A56D6F /* RHToolkitsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				837A13471B5E688900DF44AC /* Resources */,
 				8379E0371B529DA100C3B6DD /* Home */,
 				83B94BB71B50C9CB0068D6E7 /* RHTalk */,
 				83E860971B490DB800A56D6F /* RHMacro */,
@@ -759,6 +802,10 @@
 				83E8604F1B490D9E00A56D6F /* UIImage+App.m */,
 				836AE3401B4D4B4900EA7AAD /* NSObject+sharedInstance.h */,
 				836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */,
+				837A13391B5CA5F800DF44AC /* NSData+AES.h */,
+				837A133A1B5CA5F800DF44AC /* NSData+AES.m */,
+				837A133C1B5CAAA200DF44AC /* NSData+RSA.h */,
+				837A133D1B5CAAA300DF44AC /* NSData+RSA.m */,
 			);
 			path = RHCategroy;
 			sourceTree = "<group>";
@@ -1018,18 +1065,24 @@
 				830651A21B53D30D004FAB6D /* talk_btn_more_on@2x.png in Resources */,
 				830651991B53D30D004FAB6D /* bubble_left@2x.png in Resources */,
 				830651A41B53D30D004FAB6D /* talk_btn_voice_on@2x.png in Resources */,
+				837A13511B5E688900DF44AC /* private_key.p12 in Resources */,
 				830651A01B53D30D004FAB6D /* talk_btn_keyboard_on@2x.png in Resources */,
+				837A13551B5E688900DF44AC /* rsaCert.crt in Resources */,
 				830651A51B53D30D004FAB6D /* bubble_left@3x.png in Resources */,
 				8306519A1B53D30D004FAB6D /* bubble_left_down@2x.png in Resources */,
 				830651A31B53D30D004FAB6D /* talk_btn_voice@2x.png in Resources */,
 				8306519F1B53D30D004FAB6D /* talk_btn_keyboard@2x.png in Resources */,
 				8306519D1B53D30D004FAB6D /* talk_btn_emoji@2x.png in Resources */,
+				837A13561B5E688900DF44AC /* rsaCertReq.csr in Resources */,
+				837A13501B5E688900DF44AC /* pkcs8_private_key.pem in Resources */,
+				837A13541B5E688900DF44AC /* rsa_public_key.pem in Resources */,
 				830651AC1B53D30D004FAB6D /* talk_btn_keyboard_on@3x.png in Resources */,
 				8306519E1B53D30D004FAB6D /* talk_btn_emoji_on@2x.png in Resources */,
 				83E860051B49085A00A56D6F /* Images.xcassets in Resources */,
 				830651A61B53D30D004FAB6D /* bubble_left_down@3x.png in Resources */,
 				830651B01B53D30D004FAB6D /* talk_btn_voice_on@3x.png in Resources */,
 				830651AB1B53D30D004FAB6D /* talk_btn_keyboard@3x.png in Resources */,
+				837A13521B5E688900DF44AC /* private_key.pem in Resources */,
 				830651A71B53D30D004FAB6D /* bubble_right@3x.png in Resources */,
 				830651A81B53D30D004FAB6D /* bubble_right_down@3x.png in Resources */,
 				830651AD1B53D30D004FAB6D /* talk_btn_more@3x.png in Resources */,
@@ -1038,6 +1091,7 @@
 				830651A11B53D30D004FAB6D /* talk_btn_more@2x.png in Resources */,
 				830651AF1B53D30D004FAB6D /* talk_btn_voice@3x.png in Resources */,
 				8306519B1B53D30D004FAB6D /* bubble_right@2x.png in Resources */,
+				837A13531B5E688900DF44AC /* public_key.der in Resources */,
 				830651AE1B53D30D004FAB6D /* talk_btn_more_on@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1103,6 +1157,7 @@
 				8379E0491B52A48E00C3B6DD /* RHLeftViewCell.m in Sources */,
 				83B94BD61B50CB780068D6E7 /* RHMessageData.m in Sources */,
 				83EECEBF1B4BF7E900F60B27 /* UIView+RHLoading.m in Sources */,
+				837A133B1B5CA5F800DF44AC /* NSData+AES.m in Sources */,
 				83B94BFB1B512E9E0068D6E7 /* RHAudioMessage.m in Sources */,
 				83E860821B490D9F00A56D6F /* NSObject+Log.m in Sources */,
 				8379E0431B52A38000C3B6DD /* RHLeftView.m in Sources */,
@@ -1153,6 +1208,7 @@
 				83B94BF81B512A180068D6E7 /* RHTipMessage.m in Sources */,
 				83E8607D1B490D9F00A56D6F /* RHAudioRecorder.m in Sources */,
 				83B94BA61B50A1580068D6E7 /* RHCircularProgressLayer.m in Sources */,
+				837A133E1B5CAAA300DF44AC /* NSData+RSA.m in Sources */,
 				83E860CA1B490DB800A56D6F /* SinaShowRoomViewController.m in Sources */,
 				8347C89D1B58FC51000B1519 /* RHToolItemView.m in Sources */,
 				83E8608B1B490D9F00A56D6F /* RHHttpMultiPostOperation.m in Sources */,

@@ -5,6 +5,7 @@ pod 'libextobjc/EXTScope', '~> 0.4.1'
 
 pod 'MMDrawerController', '~> 0.6.0'
 
+pod 'Base64nl', '~> 1.2'
 pod 'Reachability', '~> 3.2'
 pod 'AFNetworking', '~> 2.5.4'
 pod 'GCDWebServer', '~> 3.2.4'

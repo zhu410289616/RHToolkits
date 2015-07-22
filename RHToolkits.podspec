@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.subspec "RHCategroyKit" do |cs|
     cs.source_files  = "RHToolkits/RHCategroy/*.{h,m}"
     cs.requires_arc = true
+    cs.dependency 'Base64nl', '~> 1.2'
   end
 
   s.subspec "RHToastViewKit" do |cs|
