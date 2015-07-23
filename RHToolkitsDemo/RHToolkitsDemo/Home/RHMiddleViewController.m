@@ -18,6 +18,8 @@
 #import "RHCircularProgressView.h"
 #import "RHCircularIndicatorView.h"
 
+#import "LiveView.h"
+
 @interface RHMiddleViewController ()
 {
     RHMiddleView *_middleView;
@@ -57,6 +59,9 @@
     NSLog(@"decryptData: %@", decryptData);
     NSLog(@"decrypt string: %@", [[NSString alloc] initWithData:decryptData encoding:NSUTF8StringEncoding]);
     
+    LiveView *liveView = [[LiveView alloc] initWithFrame:CGRectMake(0, 300, 200, 100)];
+    [self.view addSubview:liveView];
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -64,6 +69,11 @@
     [super viewDidAppear:animated];
     
     RHActivityIndicatorView *indicatorView = [[RHActivityIndicatorView alloc] initWithFrame:CGRectMake(50, 150, 140, 140)];
+    indicatorView.indicatorSize = CGSizeMake(20, 20);
+    indicatorView.indicatorColor = [UIColor skyBlueColor];
+    indicatorView.replicatorCount = 20;
+    indicatorView.textColor = [UIColor goldColor];
+    indicatorView.text = @"Loading...";
     [self.view addSubview:indicatorView];
     [indicatorView stopAnimating];
     [indicatorView startAnimating];

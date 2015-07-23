@@ -16,14 +16,19 @@ pod "GCDWebServer/WebDAV", "~> 3.0"
 
 #先把私有库clone到本地，然后通过指定［path］或者［podspec］调用
 #pod repo add RHSocketKit https://github.com/zhu410289616/RHSocketKit.git
-pod 'RHSocketKit', :path=>"~/.cocoapods/repos/RHSocketKit"  #指定路径
-#pod 'RHSocketKit', :podspec=>"~/.cocoapods/repos/RHSocketKit/RHSocketKit.podspec"  #指定podspec文件
+#pod 'RHSocketKit', :path=>"~/.cocoapods/repos/RHSocketKit"  #指定路径
+pod 'RHSocketKit', :podspec=>"~/.cocoapods/repos/RHSocketKit/RHSocketKit.podspec"  #指定podspec文件
 
 
 pod 'EGOCache', '~> 2.1.3'
 pod 'TTTAttributedLabel', '~> 1.13.4'
 pod 'Mantle', '~> 2.0.2'
+
+#http://www.cocoachina.com/ios/20150508/11777.html
 pod 'Masonry', '~> 0.6.1'
+pod 'Classy', '~> 0.2.4'
+pod 'ClassyLiveLayout', '~> 0.6.0'
+
 pod 'MBProgressHUD', '~> 0.9.1'
 pod 'SDWebImage', '~> 3.7.2'
 pod 'kxmovie', '~> 0.0.3'

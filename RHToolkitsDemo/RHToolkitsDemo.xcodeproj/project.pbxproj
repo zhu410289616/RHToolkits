@@ -59,6 +59,8 @@
 		837A13631B60CA3E00DF44AC /* RHCircularIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A13621B60CA3E00DF44AC /* RHCircularIndicatorView.m */; };
 		837A13661B60CE1E00DF44AC /* RHCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A13651B60CE1E00DF44AC /* RHCircularProgressLayer.m */; };
 		837A13691B60CEE200DF44AC /* RHCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A13681B60CEE200DF44AC /* RHCircularProgressView.m */; };
+		837A136C1B60F33200DF44AC /* stylesheet.cas in Resources */ = {isa = PBXBuildFile; fileRef = 837A136B1B60F33200DF44AC /* stylesheet.cas */; };
+		837A136F1B61066300DF44AC /* LiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A136E1B61066300DF44AC /* LiveView.m */; };
 		83B94BBA1B50CA000068D6E7 /* RHTalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BB91B50CA000068D6E7 /* RHTalkViewController.m */; };
 		83B94BBD1B50CA0F0068D6E7 /* RHTalkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BBC1B50CA0F0068D6E7 /* RHTalkView.m */; };
 		83B94BC01B50CB380068D6E7 /* RHTalkViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BBF1B50CB380068D6E7 /* RHTalkViewAdapter.m */; };
@@ -219,6 +221,9 @@
 		837A13651B60CE1E00DF44AC /* RHCircularProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCircularProgressLayer.m; sourceTree = "<group>"; };
 		837A13671B60CEE200DF44AC /* RHCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCircularProgressView.h; sourceTree = "<group>"; };
 		837A13681B60CEE200DF44AC /* RHCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCircularProgressView.m; sourceTree = "<group>"; };
+		837A136B1B60F33200DF44AC /* stylesheet.cas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stylesheet.cas; sourceTree = "<group>"; };
+		837A136D1B61066300DF44AC /* LiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveView.h; sourceTree = "<group>"; };
+		837A136E1B61066300DF44AC /* LiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveView.m; sourceTree = "<group>"; };
 		83B94BB81B50CA000068D6E7 /* RHTalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTalkViewController.h; sourceTree = "<group>"; };
 		83B94BB91B50CA000068D6E7 /* RHTalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTalkViewController.m; sourceTree = "<group>"; };
 		83B94BBB1B50CA0F0068D6E7 /* RHTalkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTalkView.h; sourceTree = "<group>"; };
@@ -525,6 +530,7 @@
 		837A13471B5E688900DF44AC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				837A136A1B60F31200DF44AC /* styles */,
 				837A13481B5E688900DF44AC /* rsa */,
 			);
 			path = Resources;
@@ -559,6 +565,14 @@
 				837A13681B60CEE200DF44AC /* RHCircularProgressView.m */,
 			);
 			path = RHIndicatorView;
+			sourceTree = "<group>";
+		};
+		837A136A1B60F31200DF44AC /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				837A136B1B60F33200DF44AC /* stylesheet.cas */,
+			);
+			path = styles;
 			sourceTree = "<group>";
 		};
 		83B94BB71B50C9CB0068D6E7 /* RHTalk */ = {
@@ -908,6 +922,8 @@
 				83E8609C1B490DB800A56D6F /* GetServerInfo.m */,
 				83E8609D1B490DB800A56D6F /* TestDownloader.h */,
 				83E8609E1B490DB800A56D6F /* TestDownloader.m */,
+				837A136D1B61066300DF44AC /* LiveView.h */,
+				837A136E1B61066300DF44AC /* LiveView.m */,
 			);
 			path = RHTest;
 			sourceTree = "<group>";
@@ -1103,6 +1119,7 @@
 				837A13521B5E688900DF44AC /* private_key.pem in Resources */,
 				830651A71B53D30D004FAB6D /* bubble_right@3x.png in Resources */,
 				830651A81B53D30D004FAB6D /* bubble_right_down@3x.png in Resources */,
+				837A136C1B60F33200DF44AC /* stylesheet.cas in Resources */,
 				830651AD1B53D30D004FAB6D /* talk_btn_more@3x.png in Resources */,
 				830651AA1B53D30D004FAB6D /* talk_btn_emoji_on@3x.png in Resources */,
 				83B94BF51B5129380068D6E7 /* tip_bg@2x.png in Resources */,
@@ -1209,6 +1226,7 @@
 				83E860C61B490DB800A56D6F /* SinaShowHallViewAdapter.m in Sources */,
 				83B94BD51B50CB780068D6E7 /* RHMessageTipCell.m in Sources */,
 				83B94BBD1B50CA0F0068D6E7 /* RHTalkView.m in Sources */,
+				837A136F1B61066300DF44AC /* LiveView.m in Sources */,
 				83E860941B490D9F00A56D6F /* RHQueue.m in Sources */,
 				83E8607B1B490D9F00A56D6F /* RHAudioCafOutput.m in Sources */,
 				830651B31B53DAA1004FAB6D /* RHMiddleView.m in Sources */,

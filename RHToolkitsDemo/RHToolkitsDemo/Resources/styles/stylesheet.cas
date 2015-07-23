@@ -1,0 +1,10 @@
+UIView.redBox {
+cas_marginTop 40
+cas_marginLeft 10
+cas_size 80 100
+}
+UIView.blueBox {
+cas_marginTop 30
+cas_marginRight -40
+cas_size 100 100
+}

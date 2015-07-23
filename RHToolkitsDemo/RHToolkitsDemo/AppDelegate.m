@@ -8,11 +8,15 @@
 
 #import "AppDelegate.h"
 
+#import "Classy.h"
+
 #import "RHLeftViewController.h"
 #import "RHMiddleViewController.h"
 #import "MMDrawerController.h"
 
 #import "ViewController.h"
+
+
 
 @interface AppDelegate ()
 {
@@ -26,6 +30,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+#if TARGET_IPHONE_SIMULATOR
+    NSString *absoluteFilePath = CASAbsoluteFilePath(@"/Resources/styles/stylesheet.cas");
+    [CASStyler defaultStyler].watchFilePath = absoluteFilePath;
+#endif
     
     RHLeftViewController *leftController = [[RHLeftViewController alloc] init];
     RHMiddleViewController *middleController = [[RHMiddleViewController alloc] init];
