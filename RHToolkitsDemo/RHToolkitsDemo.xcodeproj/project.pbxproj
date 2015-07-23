@@ -54,9 +54,11 @@
 		837A13541B5E688900DF44AC /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 837A134D1B5E688900DF44AC /* rsa_public_key.pem */; };
 		837A13551B5E688900DF44AC /* rsaCert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 837A134E1B5E688900DF44AC /* rsaCert.crt */; };
 		837A13561B5E688900DF44AC /* rsaCertReq.csr in Resources */ = {isa = PBXBuildFile; fileRef = 837A134F1B5E688900DF44AC /* rsaCertReq.csr */; };
-		83B94BA31B509FDC0068D6E7 /* RHProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BA21B509FDC0068D6E7 /* RHProgressLayer.m */; };
-		83B94BA61B50A1580068D6E7 /* RHCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BA51B50A1580068D6E7 /* RHCircularProgressLayer.m */; };
-		83B94BA91B50A23D0068D6E7 /* RHProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BA81B50A23D0068D6E7 /* RHProgressView.m */; };
+		837A135D1B60AA9600DF44AC /* RHActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A135C1B60AA9600DF44AC /* RHActivityIndicatorView.m */; };
+		837A13601B60AAAD00DF44AC /* RHPlayingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A135F1B60AAAD00DF44AC /* RHPlayingIndicatorView.m */; };
+		837A13631B60CA3E00DF44AC /* RHCircularIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A13621B60CA3E00DF44AC /* RHCircularIndicatorView.m */; };
+		837A13661B60CE1E00DF44AC /* RHCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A13651B60CE1E00DF44AC /* RHCircularProgressLayer.m */; };
+		837A13691B60CEE200DF44AC /* RHCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A13681B60CEE200DF44AC /* RHCircularProgressView.m */; };
 		83B94BBA1B50CA000068D6E7 /* RHTalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BB91B50CA000068D6E7 /* RHTalkViewController.m */; };
 		83B94BBD1B50CA0F0068D6E7 /* RHTalkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BBC1B50CA0F0068D6E7 /* RHTalkView.m */; };
 		83B94BC01B50CB380068D6E7 /* RHTalkViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BBF1B50CB380068D6E7 /* RHTalkViewAdapter.m */; };
@@ -207,12 +209,16 @@
 		837A134D1B5E688900DF44AC /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
 		837A134E1B5E688900DF44AC /* rsaCert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCert.crt; sourceTree = "<group>"; };
 		837A134F1B5E688900DF44AC /* rsaCertReq.csr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCertReq.csr; sourceTree = "<group>"; };
-		83B94BA11B509FDC0068D6E7 /* RHProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHProgressLayer.h; sourceTree = "<group>"; };
-		83B94BA21B509FDC0068D6E7 /* RHProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHProgressLayer.m; sourceTree = "<group>"; };
-		83B94BA41B50A1580068D6E7 /* RHCircularProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCircularProgressLayer.h; sourceTree = "<group>"; };
-		83B94BA51B50A1580068D6E7 /* RHCircularProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCircularProgressLayer.m; sourceTree = "<group>"; };
-		83B94BA71B50A23D0068D6E7 /* RHProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHProgressView.h; sourceTree = "<group>"; };
-		83B94BA81B50A23D0068D6E7 /* RHProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHProgressView.m; sourceTree = "<group>"; };
+		837A135B1B60AA9600DF44AC /* RHActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHActivityIndicatorView.h; sourceTree = "<group>"; };
+		837A135C1B60AA9600DF44AC /* RHActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHActivityIndicatorView.m; sourceTree = "<group>"; };
+		837A135E1B60AAAD00DF44AC /* RHPlayingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPlayingIndicatorView.h; sourceTree = "<group>"; };
+		837A135F1B60AAAD00DF44AC /* RHPlayingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPlayingIndicatorView.m; sourceTree = "<group>"; };
+		837A13611B60CA3E00DF44AC /* RHCircularIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCircularIndicatorView.h; sourceTree = "<group>"; };
+		837A13621B60CA3E00DF44AC /* RHCircularIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCircularIndicatorView.m; sourceTree = "<group>"; };
+		837A13641B60CE1E00DF44AC /* RHCircularProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCircularProgressLayer.h; sourceTree = "<group>"; };
+		837A13651B60CE1E00DF44AC /* RHCircularProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCircularProgressLayer.m; sourceTree = "<group>"; };
+		837A13671B60CEE200DF44AC /* RHCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCircularProgressView.h; sourceTree = "<group>"; };
+		837A13681B60CEE200DF44AC /* RHCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCircularProgressView.m; sourceTree = "<group>"; };
 		83B94BB81B50CA000068D6E7 /* RHTalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTalkViewController.h; sourceTree = "<group>"; };
 		83B94BB91B50CA000068D6E7 /* RHTalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTalkViewController.m; sourceTree = "<group>"; };
 		83B94BBB1B50CA0F0068D6E7 /* RHTalkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTalkView.h; sourceTree = "<group>"; };
@@ -538,6 +544,23 @@
 			path = rsa;
 			sourceTree = "<group>";
 		};
+		837A135A1B60AA9600DF44AC /* RHIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				837A13641B60CE1E00DF44AC /* RHCircularProgressLayer.h */,
+				837A13651B60CE1E00DF44AC /* RHCircularProgressLayer.m */,
+				837A135B1B60AA9600DF44AC /* RHActivityIndicatorView.h */,
+				837A135C1B60AA9600DF44AC /* RHActivityIndicatorView.m */,
+				837A135E1B60AAAD00DF44AC /* RHPlayingIndicatorView.h */,
+				837A135F1B60AAAD00DF44AC /* RHPlayingIndicatorView.m */,
+				837A13611B60CA3E00DF44AC /* RHCircularIndicatorView.h */,
+				837A13621B60CA3E00DF44AC /* RHCircularIndicatorView.m */,
+				837A13671B60CEE200DF44AC /* RHCircularProgressView.h */,
+				837A13681B60CEE200DF44AC /* RHCircularProgressView.m */,
+			);
+			path = RHIndicatorView;
+			sourceTree = "<group>";
+		};
 		83B94BB71B50C9CB0068D6E7 /* RHTalk */ = {
 			isa = PBXGroup;
 			children = (
@@ -674,6 +697,7 @@
 		83E8601D1B490D9E00A56D6F /* RHToolkits */ = {
 			isa = PBXGroup;
 			children = (
+				837A135A1B60AA9600DF44AC /* RHIndicatorView */,
 				83EECEBC1B4BF63800F60B27 /* RHLoadingView */,
 				83EECEB21B4B85B900F60B27 /* RHToastView */,
 				83E8601E1B490D9E00A56D6F /* RHAudio */,
@@ -884,12 +908,6 @@
 				83E8609C1B490DB800A56D6F /* GetServerInfo.m */,
 				83E8609D1B490DB800A56D6F /* TestDownloader.h */,
 				83E8609E1B490DB800A56D6F /* TestDownloader.m */,
-				83B94BA11B509FDC0068D6E7 /* RHProgressLayer.h */,
-				83B94BA21B509FDC0068D6E7 /* RHProgressLayer.m */,
-				83B94BA41B50A1580068D6E7 /* RHCircularProgressLayer.h */,
-				83B94BA51B50A1580068D6E7 /* RHCircularProgressLayer.m */,
-				83B94BA71B50A23D0068D6E7 /* RHProgressView.h */,
-				83B94BA81B50A23D0068D6E7 /* RHProgressView.m */,
 			);
 			path = RHTest;
 			sourceTree = "<group>";
@@ -1143,6 +1161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837A13661B60CE1E00DF44AC /* RHCircularProgressLayer.m in Sources */,
 				83E8607F1B490D9F00A56D6F /* NSDate+App.m in Sources */,
 				83B94BD21B50CB780068D6E7 /* RHMessageCell.m in Sources */,
 				83B94BD41B50CB780068D6E7 /* RHMessageTextCell.m in Sources */,
@@ -1163,6 +1182,7 @@
 				8379E0431B52A38000C3B6DD /* RHLeftView.m in Sources */,
 				83E860001B49085A00A56D6F /* ViewController.m in Sources */,
 				83E860851B490D9F00A56D6F /* UIDevice+App.m in Sources */,
+				837A13601B60AAAD00DF44AC /* RHPlayingIndicatorView.m in Sources */,
 				83E860881B490D9F00A56D6F /* RHHttpCacheOperation.m in Sources */,
 				83B94BBA1B50CA000068D6E7 /* RHTalkViewController.m in Sources */,
 				83E860801B490D9F00A56D6F /* NSFileManager+App.m in Sources */,
@@ -1183,6 +1203,7 @@
 				83E860871B490D9F00A56D6F /* UIImage+App.m in Sources */,
 				83E860901B490D9F00A56D6F /* RHTableView.m in Sources */,
 				83E860BE1B490DB800A56D6F /* GetServerInfo.m in Sources */,
+				837A13691B60CEE200DF44AC /* RHCircularProgressView.m in Sources */,
 				83E860891B490D9F00A56D6F /* RHHttpDownloadOperation.m in Sources */,
 				8347C8A31B59220D000B1519 /* RHVoiceView.m in Sources */,
 				83E860C61B490DB800A56D6F /* SinaShowHallViewAdapter.m in Sources */,
@@ -1192,7 +1213,6 @@
 				83E8607B1B490D9F00A56D6F /* RHAudioCafOutput.m in Sources */,
 				830651B31B53DAA1004FAB6D /* RHMiddleView.m in Sources */,
 				83E860811B490D9F00A56D6F /* NSNull+App.m in Sources */,
-				83B94BA91B50A23D0068D6E7 /* RHProgressView.m in Sources */,
 				83E860C91B490DB800A56D6F /* SinaShowRoomView.m in Sources */,
 				83B94BC01B50CB380068D6E7 /* RHTalkViewAdapter.m in Sources */,
 				83E85FFA1B49085A00A56D6F /* main.m in Sources */,
@@ -1207,9 +1227,9 @@
 				83E860791B490D9F00A56D6F /* RHAudioPlayer.m in Sources */,
 				83B94BF81B512A180068D6E7 /* RHTipMessage.m in Sources */,
 				83E8607D1B490D9F00A56D6F /* RHAudioRecorder.m in Sources */,
-				83B94BA61B50A1580068D6E7 /* RHCircularProgressLayer.m in Sources */,
 				837A133E1B5CAAA300DF44AC /* NSData+RSA.m in Sources */,
 				83E860CA1B490DB800A56D6F /* SinaShowRoomViewController.m in Sources */,
+				837A135D1B60AA9600DF44AC /* RHActivityIndicatorView.m in Sources */,
 				8347C89D1B58FC51000B1519 /* RHToolItemView.m in Sources */,
 				83E8608B1B490D9F00A56D6F /* RHHttpMultiPostOperation.m in Sources */,
 				83E8607A1B490D9F00A56D6F /* RHAudioAmrOutput.m in Sources */,
@@ -1223,7 +1243,7 @@
 				83E860C11B490DB800A56D6F /* GetRoomLiveInfo.m in Sources */,
 				83E860921B490D9F00A56D6F /* RHTableViewCell.m in Sources */,
 				83B94BDA1B50D0260068D6E7 /* RHImageMessage.m in Sources */,
-				83B94BA31B509FDC0068D6E7 /* RHProgressLayer.m in Sources */,
+				837A13631B60CA3E00DF44AC /* RHCircularIndicatorView.m in Sources */,
 				8347C8A01B590409000B1519 /* RHTalkInputBar.m in Sources */,
 				83E8608A1B490D9F00A56D6F /* RHHttpGetOperation.m in Sources */,
 				83E860831B490D9F00A56D6F /* NSString+App.m in Sources */,

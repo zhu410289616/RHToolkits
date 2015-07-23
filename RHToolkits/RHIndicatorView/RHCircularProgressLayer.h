@@ -1,5 +1,5 @@
 //
-//  RHProgressLayer.h
+//  RHCircularProgressLayer.h
 //  RHToolkitsDemo
 //
 //  Created by zhuruhong on 15/7/11.
@@ -10,8 +10,10 @@
 
 extern NSString * const kRHProgressKey;
 
-@interface RHProgressLayer : CALayer
+@interface RHCircularProgressLayer : CALayer
 
 @property (assign) float progress;
+
+- (CGColorRef)progressColor;
 
 @end
