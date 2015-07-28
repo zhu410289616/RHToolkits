@@ -11,14 +11,20 @@
 #import "RHLeftView.h"
 #import "RHLeftViewAdapter.h"
 
+#import "RHRefreshView.h"
+
 #import "UIViewController+MMDrawerController.h"
 #import "RHTalkViewController.h"
 #import "SinaShowHallViewController.h"
+#import "RootViewController.h"
 
-@interface RHLeftViewController () <RHTableViewAdapterDelegate>
+@interface RHLeftViewController () <RHTableViewAdapterDelegate, RHRefreshViewDelegate>
 {
     RHLeftView *_leftView;
     RHLeftViewAdapter *_leftAdapter;
+    
+    RHRefreshView *_headerRefreshView;
+    BOOL _reloading;
 }
 
 @end
@@ -38,6 +44,10 @@
         make.size.equalTo(self.view);
     }];
     
+    _headerRefreshView = [[RHRefreshView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - _leftView.bounds.size.height, kScreenWidth, _leftView.bounds.size.height)];
+    _headerRefreshView.delegate = self;
+    [_leftView.menuTableView addSubview:_headerRefreshView];
+    
     _leftAdapter = [[RHLeftViewAdapter alloc] init];
     _leftAdapter.delegate = self;
     [_leftView.menuTableView setTableViewAdapter:_leftAdapter];
@@ -46,6 +56,7 @@
     [_leftAdapter addCellData:@"talk view"];
     [_leftAdapter addCellData:@"Menu2"];
     [_leftAdapter addCellData:@"Menu3"];
+    [_leftAdapter addCellData:@"Menu4"];
     [_leftView.menuTableView reloadData];
     
 }
@@ -73,10 +84,54 @@
             [self.mm_drawerController setCenterViewController:nav withFullCloseAnimation:YES completion:nil];
         }
             break;
+        case 2: {
+            RootViewController *root = [[RootViewController alloc] init];
+            UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:root];
+            [self.mm_drawerController setCenterViewController:nav withFullCloseAnimation:YES completion:nil];
+        }
+            break;
             
         default:
             break;
     }//switch
+}
+
+- (RHRefreshView *)headerRefreshView
+{
+    return _headerRefreshView;
+}
+
+#pragma mark -
+#pragma mark RHRefreshViewDelegate method
+
+- (void)rhRefreshViewDoRefresh:(RHRefreshView *)refreshView
+{
+    [self reloadTableViewDataSource];
+    [self performSelector:@selector(doneLoadingTableViewData) withObject:nil afterDelay:3.0];
+}
+
+- (BOOL)rhRefreshViewDataSourceIsLoading:(RHRefreshView *)refreshView
+{
+    return _reloading;
+}
+
+#pragma mark -
+#pragma mark Data Source Loading / Reloading Methods
+
+- (void)reloadTableViewDataSource{
+    
+    //  should be calling your tableviews data source model to reload
+    //  put here just for demo
+    _reloading = YES;
+    
+}
+
+- (void)doneLoadingTableViewData{
+    
+    //  model should call this when its done loading
+    _reloading = NO;
+    [_headerRefreshView rhRefreshScrollViewDataSourceDidFinishedLoading:_leftView.menuTableView];
+    
 }
 
 @end

@@ -4,13 +4,18 @@ Pod::Spec.new do |s|
   s.summary      = "RHToolkits: kits by zhuruhong"
   s.homepage     = "https://github.com/zhu410289616/RHToolkits"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "zhu410289616" => "zhu410289616@163.com" }
+  s.author       = { "zhu410289616" => "zhu410289616@163.com" }
 
   s.ios.deployment_target = "6.0"
 
   s.source       = { :git => "https://github.com/zhu410289616/RHToolkits.git", :tag => s.version, :submodules => true }
 
-  s.default_subspec = "RHCategroyKit", "RHToastViewKit", "RHTableViewKit", "RHHttpKit"
+  s.default_subspec = "RHViewControllerKit", "RHCategroyKit", "RHToastViewKit", "RHTableViewKit", "RHHttpKit"
+
+  s.subspec "RHViewControllerKit" do |cs|
+    cs.source_files  = "RHToolkits/RHViewController/*.{h,m}"
+    cs.requires_arc = true
+  end
 
   s.subspec "RHCategroyKit" do |cs|
     cs.source_files  = "RHToolkits/RHCategroy/*.{h,m}"

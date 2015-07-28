@@ -92,4 +92,23 @@
     }
 }
 
+#pragma mark -
+#pragma mark UIScrollViewDelegate method
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    if (_delegate && [_delegate respondsToSelector:@selector(headerRefreshView)]) {
+        RHRefreshView *headerRefresh = [_delegate headerRefreshView];
+        [headerRefresh rhRefreshScrollViewDidScroll:scrollView];
+    }
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+    if (_delegate && [_delegate respondsToSelector:@selector(headerRefreshView)]) {
+        RHRefreshView *headerRefresh = [_delegate headerRefreshView];
+        [headerRefresh rhRefreshScrollViewDidEndDragging:scrollView];
+    }
+}
+
 @end

@@ -38,6 +38,7 @@
 		8347C8A01B590409000B1519 /* RHTalkInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8347C89F1B590409000B1519 /* RHTalkInputBar.m */; };
 		8347C8A31B59220D000B1519 /* RHVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8347C8A21B59220D000B1519 /* RHVoiceView.m */; };
 		8347C8A61B59221D000B1519 /* RHEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8347C8A51B59221D000B1519 /* RHEmojiView.m */; };
+		835A66431B676CEB00E81FC9 /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835A66421B676CEB00E81FC9 /* RHViewController.m */; };
 		836356E01B4E223E0087B4EC /* RHStretchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356DF1B4E223E0087B4EC /* RHStretchTableView.m */; };
 		836AE3421B4D4B4900EA7AAD /* NSObject+sharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */; };
 		8379E03A1B529F6900C3B6DD /* RHLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E0391B529F6900C3B6DD /* RHLeftViewController.m */; };
@@ -76,6 +77,9 @@
 		83B94BF81B512A180068D6E7 /* RHTipMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BF71B512A180068D6E7 /* RHTipMessage.m */; };
 		83B94BFB1B512E9E0068D6E7 /* RHAudioMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BFA1B512E9E0068D6E7 /* RHAudioMessage.m */; };
 		83B94BFE1B512EF90068D6E7 /* RHMessageAudioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B94BFD1B512EF90068D6E7 /* RHMessageAudioCell.m */; };
+		83BAB9D11B6228830056FEB4 /* RHRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAB9D01B6228830056FEB4 /* RHRefreshView.m */; };
+		83BAB9D41B623BF80056FEB4 /* RHCircularRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAB9D31B623BF80056FEB4 /* RHCircularRefreshView.m */; };
+		83BAB9D81B6252BA0056FEB4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAB9D71B6252BA0056FEB4 /* RootViewController.m */; };
 		83E85FFA1B49085A00A56D6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FF91B49085A00A56D6F /* main.m */; };
 		83E85FFD1B49085A00A56D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FFC1B49085A00A56D6F /* AppDelegate.m */; };
 		83E860001B49085A00A56D6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E85FFF1B49085A00A56D6F /* ViewController.m */; };
@@ -117,7 +121,6 @@
 		83E860961B490D9F00A56D6F /* RHTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E860741B490D9F00A56D6F /* RHTask.m */; };
 		83E860BE1B490DB800A56D6F /* GetServerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E8609C1B490DB800A56D6F /* GetServerInfo.m */; };
 		83E860BF1B490DB800A56D6F /* TestDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E8609E1B490DB800A56D6F /* TestDownloader.m */; };
-		83E860C01B490DB800A56D6F /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E860A11B490DB800A56D6F /* RHViewController.m */; };
 		83E860C11B490DB800A56D6F /* GetRoomLiveInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E860A41B490DB800A56D6F /* GetRoomLiveInfo.m */; };
 		83E860C21B490DB800A56D6F /* GetSinaShowRoomList.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E860A61B490DB800A56D6F /* GetSinaShowRoomList.m */; };
 		83E860C31B490DB800A56D6F /* HallRoomInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E860A91B490DB800A56D6F /* HallRoomInfo.m */; };
@@ -186,6 +189,8 @@
 		8347C8A21B59220D000B1519 /* RHVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHVoiceView.m; sourceTree = "<group>"; };
 		8347C8A41B59221D000B1519 /* RHEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHEmojiView.h; sourceTree = "<group>"; };
 		8347C8A51B59221D000B1519 /* RHEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHEmojiView.m; sourceTree = "<group>"; };
+		835A66411B676CEB00E81FC9 /* RHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
+		835A66421B676CEB00E81FC9 /* RHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
 		836356DE1B4E223E0087B4EC /* RHStretchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHStretchTableView.h; sourceTree = "<group>"; };
 		836356DF1B4E223E0087B4EC /* RHStretchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHStretchTableView.m; sourceTree = "<group>"; };
 		836AE3401B4D4B4900EA7AAD /* NSObject+sharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+sharedInstance.h"; sourceTree = "<group>"; };
@@ -253,6 +258,12 @@
 		83B94BFA1B512E9E0068D6E7 /* RHAudioMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAudioMessage.m; sourceTree = "<group>"; };
 		83B94BFC1B512EF90068D6E7 /* RHMessageAudioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMessageAudioCell.h; sourceTree = "<group>"; };
 		83B94BFD1B512EF90068D6E7 /* RHMessageAudioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMessageAudioCell.m; sourceTree = "<group>"; };
+		83BAB9CF1B6228830056FEB4 /* RHRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshView.h; sourceTree = "<group>"; };
+		83BAB9D01B6228830056FEB4 /* RHRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshView.m; sourceTree = "<group>"; };
+		83BAB9D21B623BF80056FEB4 /* RHCircularRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCircularRefreshView.h; sourceTree = "<group>"; };
+		83BAB9D31B623BF80056FEB4 /* RHCircularRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCircularRefreshView.m; sourceTree = "<group>"; };
+		83BAB9D61B6252BA0056FEB4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		83BAB9D71B6252BA0056FEB4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		83E85FF41B49085A00A56D6F /* RHToolkitsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHToolkitsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E85FF81B49085A00A56D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E85FF91B49085A00A56D6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -346,8 +357,6 @@
 		83E8609C1B490DB800A56D6F /* GetServerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetServerInfo.m; sourceTree = "<group>"; };
 		83E8609D1B490DB800A56D6F /* TestDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDownloader.h; sourceTree = "<group>"; };
 		83E8609E1B490DB800A56D6F /* TestDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDownloader.m; sourceTree = "<group>"; };
-		83E860A01B490DB800A56D6F /* RHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
-		83E860A11B490DB800A56D6F /* RHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
 		83E860A31B490DB800A56D6F /* GetRoomLiveInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetRoomLiveInfo.h; sourceTree = "<group>"; };
 		83E860A41B490DB800A56D6F /* GetRoomLiveInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetRoomLiveInfo.m; sourceTree = "<group>"; };
 		83E860A51B490DB800A56D6F /* GetSinaShowRoomList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSinaShowRoomList.h; sourceTree = "<group>"; };
@@ -508,6 +517,15 @@
 			path = 3x;
 			sourceTree = "<group>";
 		};
+		835A66401B676CEB00E81FC9 /* RHViewController */ = {
+			isa = PBXGroup;
+			children = (
+				835A66411B676CEB00E81FC9 /* RHViewController.h */,
+				835A66421B676CEB00E81FC9 /* RHViewController.m */,
+			);
+			path = RHViewController;
+			sourceTree = "<group>";
+		};
 		8379E0371B529DA100C3B6DD /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -638,6 +656,17 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		83BAB9CE1B6227C70056FEB4 /* RHRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				83BAB9CF1B6228830056FEB4 /* RHRefreshView.h */,
+				83BAB9D01B6228830056FEB4 /* RHRefreshView.m */,
+				83BAB9D21B623BF80056FEB4 /* RHCircularRefreshView.h */,
+				83BAB9D31B623BF80056FEB4 /* RHCircularRefreshView.m */,
+			);
+			path = RHRefreshView;
+			sourceTree = "<group>";
+		};
 		83E85FEB1B49085A00A56D6F = {
 			isa = PBXGroup;
 			children = (
@@ -666,7 +695,6 @@
 				83B94BB71B50C9CB0068D6E7 /* RHTalk */,
 				83E860971B490DB800A56D6F /* RHMacro */,
 				83E8609A1B490DB800A56D6F /* RHTest */,
-				83E8609F1B490DB800A56D6F /* RHViewController */,
 				83E860A21B490DB800A56D6F /* SinaShow */,
 				83E860B91B490DB800A56D6F /* WebServer */,
 				83E8601D1B490D9E00A56D6F /* RHToolkits */,
@@ -711,6 +739,8 @@
 		83E8601D1B490D9E00A56D6F /* RHToolkits */ = {
 			isa = PBXGroup;
 			children = (
+				835A66401B676CEB00E81FC9 /* RHViewController */,
+				83BAB9CE1B6227C70056FEB4 /* RHRefreshView */,
 				837A135A1B60AA9600DF44AC /* RHIndicatorView */,
 				83EECEBC1B4BF63800F60B27 /* RHLoadingView */,
 				83EECEB21B4B85B900F60B27 /* RHToastView */,
@@ -918,6 +948,8 @@
 		83E8609A1B490DB800A56D6F /* RHTest */ = {
 			isa = PBXGroup;
 			children = (
+				83BAB9D61B6252BA0056FEB4 /* RootViewController.h */,
+				83BAB9D71B6252BA0056FEB4 /* RootViewController.m */,
 				83E8609B1B490DB800A56D6F /* GetServerInfo.h */,
 				83E8609C1B490DB800A56D6F /* GetServerInfo.m */,
 				83E8609D1B490DB800A56D6F /* TestDownloader.h */,
@@ -926,15 +958,6 @@
 				837A136E1B61066300DF44AC /* LiveView.m */,
 			);
 			path = RHTest;
-			sourceTree = "<group>";
-		};
-		83E8609F1B490DB800A56D6F /* RHViewController */ = {
-			isa = PBXGroup;
-			children = (
-				83E860A01B490DB800A56D6F /* RHViewController.h */,
-				83E860A11B490DB800A56D6F /* RHViewController.m */,
-			);
-			path = RHViewController;
 			sourceTree = "<group>";
 		};
 		83E860A21B490DB800A56D6F /* SinaShow */ = {
@@ -1180,6 +1203,7 @@
 			files = (
 				837A13661B60CE1E00DF44AC /* RHCircularProgressLayer.m in Sources */,
 				83E8607F1B490D9F00A56D6F /* NSDate+App.m in Sources */,
+				835A66431B676CEB00E81FC9 /* RHViewController.m in Sources */,
 				83B94BD21B50CB780068D6E7 /* RHMessageCell.m in Sources */,
 				83B94BD41B50CB780068D6E7 /* RHMessageTextCell.m in Sources */,
 				83E8608D1B490D9F00A56D6F /* RHHttpPostOperation.m in Sources */,
@@ -1214,6 +1238,7 @@
 				83E8607C1B490D9F00A56D6F /* RHAudioMp3Output.m in Sources */,
 				83F032C91B55FFF600AAD650 /* RHToolItem.m in Sources */,
 				83E860961B490D9F00A56D6F /* RHTask.m in Sources */,
+				83BAB9D81B6252BA0056FEB4 /* RootViewController.m in Sources */,
 				83E85FFD1B49085A00A56D6F /* AppDelegate.m in Sources */,
 				8379E03A1B529F6900C3B6DD /* RHLeftViewController.m in Sources */,
 				83E860C51B490DB800A56D6F /* SinaShowHallView.m in Sources */,
@@ -1230,6 +1255,7 @@
 				83E860941B490D9F00A56D6F /* RHQueue.m in Sources */,
 				83E8607B1B490D9F00A56D6F /* RHAudioCafOutput.m in Sources */,
 				830651B31B53DAA1004FAB6D /* RHMiddleView.m in Sources */,
+				83BAB9D11B6228830056FEB4 /* RHRefreshView.m in Sources */,
 				83E860811B490D9F00A56D6F /* NSNull+App.m in Sources */,
 				83E860C91B490DB800A56D6F /* SinaShowRoomView.m in Sources */,
 				83B94BC01B50CB380068D6E7 /* RHTalkViewAdapter.m in Sources */,
@@ -1241,7 +1267,6 @@
 				8347C8A61B59221D000B1519 /* RHEmojiView.m in Sources */,
 				83E8608C1B490D9F00A56D6F /* RHHttpOperation.m in Sources */,
 				83E860BF1B490DB800A56D6F /* TestDownloader.m in Sources */,
-				83E860C01B490DB800A56D6F /* RHViewController.m in Sources */,
 				83E860791B490D9F00A56D6F /* RHAudioPlayer.m in Sources */,
 				83B94BF81B512A180068D6E7 /* RHTipMessage.m in Sources */,
 				83E8607D1B490D9F00A56D6F /* RHAudioRecorder.m in Sources */,
@@ -1254,6 +1279,7 @@
 				83E860841B490D9F00A56D6F /* UIColor+App.m in Sources */,
 				8379E03D1B529F7A00C3B6DD /* RHMiddleViewController.m in Sources */,
 				83E860C31B490DB800A56D6F /* HallRoomInfo.m in Sources */,
+				83BAB9D41B623BF80056FEB4 /* RHCircularRefreshView.m in Sources */,
 				83E860CC1B490DB800A56D6F /* WebServerViewController.m in Sources */,
 				83E860C41B490DB800A56D6F /* SinaShowHallCell.m in Sources */,
 				83E860CB1B490DB800A56D6F /* WebServerView.m in Sources */,

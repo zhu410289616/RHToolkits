@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "RHRefreshView.h"
 
 @protocol RHTableViewAdapterDelegate <NSObject>
 
@@ -15,6 +16,9 @@
 
 - (void)didTableViewSelectIndexPath:(NSIndexPath *)indexPath;
 - (void)didTableViewCellSelect:(id)cellData;
+
+- (RHRefreshView *)headerRefreshView;
+- (RHRefreshView *)footerRefreshView;
 
 @end
 
