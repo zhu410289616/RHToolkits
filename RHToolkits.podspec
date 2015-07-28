@@ -37,10 +37,17 @@ Pod::Spec.new do |s|
     cs.dependency 'RHToolkits/RHCategroyKit'
   end
 
+  s.subspec "RHRefreshViewKit" do |cs|
+    cs.source_files  = "RHToolkits/RHRefreshView/*.{h,m}"
+    cs.requires_arc = true
+    cs.dependency 'Masonry', '~> 0.6.1'
+  end
+
   s.subspec "RHTableViewKit" do |cs|
     cs.source_files = "RHToolkits/RHTableView/*.{h,m}"
     cs.requires_arc = true
     cs.dependency 'TTTAttributedLabel', '~> 1.13.4'
+    cs.dependency 'RHToolkits/RHRefreshViewKit'
   end
 
   s.subspec "RHHttpKit" do |cs|
