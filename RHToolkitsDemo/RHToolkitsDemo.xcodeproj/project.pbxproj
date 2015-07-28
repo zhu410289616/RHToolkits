@@ -39,6 +39,10 @@
 		8347C8A31B59220D000B1519 /* RHVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8347C8A21B59220D000B1519 /* RHVoiceView.m */; };
 		8347C8A61B59221D000B1519 /* RHEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8347C8A51B59221D000B1519 /* RHEmojiView.m */; };
 		835A66431B676CEB00E81FC9 /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835A66421B676CEB00E81FC9 /* RHViewController.m */; };
+		835A66711B67A92100E81FC9 /* RHMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 835A666A1B67A92100E81FC9 /* RHMapView.m */; };
+		835A66721B67A92100E81FC9 /* RHMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 835A666C1B67A92100E81FC9 /* RHMapViewManager.m */; };
+		835A66731B67A92100E81FC9 /* RHPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 835A666E1B67A92100E81FC9 /* RHPointAnnotation.m */; };
+		835A66741B67A92100E81FC9 /* RHPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 835A66701B67A92100E81FC9 /* RHPolyline.m */; };
 		836356E01B4E223E0087B4EC /* RHStretchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836356DF1B4E223E0087B4EC /* RHStretchTableView.m */; };
 		836AE3421B4D4B4900EA7AAD /* NSObject+sharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 836AE3411B4D4B4900EA7AAD /* NSObject+sharedInstance.m */; };
 		8379E03A1B529F6900C3B6DD /* RHLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379E0391B529F6900C3B6DD /* RHLeftViewController.m */; };
@@ -191,6 +195,15 @@
 		8347C8A51B59221D000B1519 /* RHEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHEmojiView.m; sourceTree = "<group>"; };
 		835A66411B676CEB00E81FC9 /* RHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
 		835A66421B676CEB00E81FC9 /* RHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
+		835A66681B67A92100E81FC9 /* RHMapConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMapConfig.h; sourceTree = "<group>"; };
+		835A66691B67A92100E81FC9 /* RHMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMapView.h; sourceTree = "<group>"; };
+		835A666A1B67A92100E81FC9 /* RHMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMapView.m; sourceTree = "<group>"; };
+		835A666B1B67A92100E81FC9 /* RHMapViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMapViewManager.h; sourceTree = "<group>"; };
+		835A666C1B67A92100E81FC9 /* RHMapViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMapViewManager.m; sourceTree = "<group>"; };
+		835A666D1B67A92100E81FC9 /* RHPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPointAnnotation.h; sourceTree = "<group>"; };
+		835A666E1B67A92100E81FC9 /* RHPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPointAnnotation.m; sourceTree = "<group>"; };
+		835A666F1B67A92100E81FC9 /* RHPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPolyline.h; sourceTree = "<group>"; };
+		835A66701B67A92100E81FC9 /* RHPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPolyline.m; sourceTree = "<group>"; };
 		836356DE1B4E223E0087B4EC /* RHStretchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHStretchTableView.h; sourceTree = "<group>"; };
 		836356DF1B4E223E0087B4EC /* RHStretchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHStretchTableView.m; sourceTree = "<group>"; };
 		836AE3401B4D4B4900EA7AAD /* NSObject+sharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+sharedInstance.h"; sourceTree = "<group>"; };
@@ -526,6 +539,22 @@
 			path = RHViewController;
 			sourceTree = "<group>";
 		};
+		835A66671B67A92100E81FC9 /* RHMap */ = {
+			isa = PBXGroup;
+			children = (
+				835A66681B67A92100E81FC9 /* RHMapConfig.h */,
+				835A66691B67A92100E81FC9 /* RHMapView.h */,
+				835A666A1B67A92100E81FC9 /* RHMapView.m */,
+				835A666B1B67A92100E81FC9 /* RHMapViewManager.h */,
+				835A666C1B67A92100E81FC9 /* RHMapViewManager.m */,
+				835A666D1B67A92100E81FC9 /* RHPointAnnotation.h */,
+				835A666E1B67A92100E81FC9 /* RHPointAnnotation.m */,
+				835A666F1B67A92100E81FC9 /* RHPolyline.h */,
+				835A66701B67A92100E81FC9 /* RHPolyline.m */,
+			);
+			path = RHMap;
+			sourceTree = "<group>";
+		};
 		8379E0371B529DA100C3B6DD /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -739,6 +768,7 @@
 		83E8601D1B490D9E00A56D6F /* RHToolkits */ = {
 			isa = PBXGroup;
 			children = (
+				835A66671B67A92100E81FC9 /* RHMap */,
 				835A66401B676CEB00E81FC9 /* RHViewController */,
 				83BAB9CE1B6227C70056FEB4 /* RHRefreshView */,
 				837A135A1B60AA9600DF44AC /* RHIndicatorView */,
@@ -1214,6 +1244,7 @@
 				83E8608F1B490D9F00A56D6F /* RHHeadImageCell.m in Sources */,
 				836AE3421B4D4B4900EA7AAD /* NSObject+sharedInstance.m in Sources */,
 				83F032D41B563E7A00AAD650 /* RHToolView.m in Sources */,
+				835A66711B67A92100E81FC9 /* RHMapView.m in Sources */,
 				8379E0491B52A48E00C3B6DD /* RHLeftViewCell.m in Sources */,
 				83B94BD61B50CB780068D6E7 /* RHMessageData.m in Sources */,
 				83EECEBF1B4BF7E900F60B27 /* UIView+RHLoading.m in Sources */,
@@ -1226,6 +1257,7 @@
 				837A13601B60AAAD00DF44AC /* RHPlayingIndicatorView.m in Sources */,
 				83E860881B490D9F00A56D6F /* RHHttpCacheOperation.m in Sources */,
 				83B94BBA1B50CA000068D6E7 /* RHTalkViewController.m in Sources */,
+				835A66741B67A92100E81FC9 /* RHPolyline.m in Sources */,
 				83E860801B490D9F00A56D6F /* NSFileManager+App.m in Sources */,
 				83B94BD71B50CB780068D6E7 /* RHTextMessage.m in Sources */,
 				83E860C21B490DB800A56D6F /* GetSinaShowRoomList.m in Sources */,
@@ -1242,6 +1274,7 @@
 				83E85FFD1B49085A00A56D6F /* AppDelegate.m in Sources */,
 				8379E03A1B529F6900C3B6DD /* RHLeftViewController.m in Sources */,
 				83E860C51B490DB800A56D6F /* SinaShowHallView.m in Sources */,
+				835A66721B67A92100E81FC9 /* RHMapViewManager.m in Sources */,
 				83E860871B490D9F00A56D6F /* UIImage+App.m in Sources */,
 				83E860901B490D9F00A56D6F /* RHTableView.m in Sources */,
 				83E860BE1B490DB800A56D6F /* GetServerInfo.m in Sources */,
@@ -1280,6 +1313,7 @@
 				8379E03D1B529F7A00C3B6DD /* RHMiddleViewController.m in Sources */,
 				83E860C31B490DB800A56D6F /* HallRoomInfo.m in Sources */,
 				83BAB9D41B623BF80056FEB4 /* RHCircularRefreshView.m in Sources */,
+				835A66731B67A92100E81FC9 /* RHPointAnnotation.m in Sources */,
 				83E860CC1B490DB800A56D6F /* WebServerViewController.m in Sources */,
 				83E860C41B490DB800A56D6F /* SinaShowHallCell.m in Sources */,
 				83E860CB1B490DB800A56D6F /* WebServerView.m in Sources */,

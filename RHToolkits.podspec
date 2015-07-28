@@ -50,6 +50,12 @@ Pod::Spec.new do |s|
     cs.dependency 'RHToolkits/RHRefreshViewKit'
   end
 
+  s.subspec "RHMapKit" do |cs|
+    cs.source_files = "RHToolkits/RHMap/*.{h,m}"
+    cs.requires_arc = true
+    cs.dependency 'AMapNavi', '~> 1.3.0'
+  end
+
   s.subspec "RHHttpKit" do |cs|
     cs.source_files  = "RHToolkits/RHHttp/*.{h,m}"
     cs.requires_arc = true
