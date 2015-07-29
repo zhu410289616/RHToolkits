@@ -9,6 +9,7 @@
 #import "RHMapViewManager.h"
 #import "RHPointAnnotation.h"
 #import "RHPolyline.h"
+#import "RHMapConfig.h"
 
 @interface RHMapViewManager () <UIGestureRecognizerDelegate>
 {
@@ -151,7 +152,7 @@
  */
 - (void)mapViewWillStartLocatingUser:(MAMapView *)mapView
 {
-    KDMapKitLog(@"mapViewWillStartLocatingUser...");
+    RHMapLog(@"mapViewWillStartLocatingUser...");
 }
 
 /*!
@@ -160,7 +161,7 @@
  */
 - (void)mapViewDidStopLocatingUser:(MAMapView *)mapView
 {
-    KDMapKitLog(@"mapViewDidStopLocatingUser...");
+    RHMapLog(@"mapViewDidStopLocatingUser...");
 }
 
 /*!

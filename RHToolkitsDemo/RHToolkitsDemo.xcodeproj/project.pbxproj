@@ -1445,6 +1445,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AB6107C49065E8E307E0D8A /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = RHToolkitsDemo/Prefix.pch;
@@ -1463,6 +1464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D9884DD6C1CD0E70258A7A6 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = RHToolkitsDemo/Prefix.pch;
