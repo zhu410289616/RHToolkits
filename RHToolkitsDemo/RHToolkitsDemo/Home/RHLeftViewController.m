@@ -14,8 +14,8 @@
 #import "RHRefreshView.h"
 
 #import "UIViewController+MMDrawerController.h"
+#import "ViewController.h"
 #import "RHTalkViewController.h"
-#import "SinaShowHallViewController.h"
 #import "RootViewController.h"
 
 @interface RHLeftViewController () <RHTableViewAdapterDelegate, RHRefreshViewDelegate>
@@ -73,8 +73,8 @@
 {
     switch (indexPath.row) {
         case 0: {
-            SinaShowHallViewController *hall = [[SinaShowHallViewController alloc] init];
-            UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:hall];
+            ViewController *vc = [[ViewController alloc] init];
+            UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
             [self.mm_drawerController setCenterViewController:nav withCloseAnimation:YES completion:nil];
         }
             break;
